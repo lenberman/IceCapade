@@ -1,0 +1,19 @@
+# --- Regenerable diagnostics (re-run, do not version) ---
+RECONCILIATION_WORKLIST.md
+
+# --- Forward-looking: regenerable caches once quote-canonical anchoring lands ---
+*.linecache
+line_cache/
+manifest/*.json
+
+# --- OS / editor / Dropbox cruft ---
+.DS_Store
+*~
+*.swp
+*conflicted copy*
+.dropbox
+.dropbox.attr
+
+# --- python ---
+__pycache__/
+*.pyc

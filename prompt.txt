@@ -1,0 +1,93 @@
+# IceCapade — operating prompts (v1 substrate; adapted from Critique's prompt.txt)
+#
+# Paste the relevant block into a NEW chat with this folder open. Detail lives in
+# analysis/ICECAPADE_SUBSTRATE_SPEC.md; full how-to in analysis/USAGE.md.
+#
+# To change the manuscript you overwrite (or add) a file in html/ — same filename,
+# no upload step. The chat detects the change via git and handles committing + tagging.
+#
+# Blocks: P) seed/revise the plan · B) ingest new chapter · A) ingest modified chapter ·
+#         K) continuity sweep · C) ask a question / render · D) autonomous next pass ·
+#         T/U) timeline (DORMANT until the workbook is scaffolded — see USAGE)
+
+# ============================================================================
+# P) SEED or REVISE the PLAN  (the natural first session; also for outline changes)
+# ============================================================================
+Read analysis/ICECAPADE_SUBSTRATE_SPEC.md and analysis/facets/PLAN.md.
+I want to work on the plan. Take what I give you (conversation, notes, or files in reference/)
+and express it as PLAN.md content: premise, arc, the planned-chapter table, plan claims (PL-##),
+and open promises (PR-##, each with where it must pay off). Show me the draft before writing.
+If PLAN already has content, treat this as a revision: preserve claim IDs where the idea survives,
+retire what I've dropped, and list anything the change puts in conflict with already-written text
+(divergence queue). If POSITIONING can be seeded/updated from the plan (basis: plan), propose that
+too. Commit as an analysis commit; update DASHBOARD + QUESTIONS readiness.
+
+# ============================================================================
+# B) INGEST a NEW chapter  (you added a new file to html/)  ← the primary flow
+# ============================================================================
+Read analysis/ICECAPADE_SUBSTRATE_SPEC.md (esp. §7.1), analysis/DASHBOARD.md, and
+analysis/QUESTIONS.md. I've added a NEW chapter to html/. Detect it with
+`git status --porcelain -- html/` (new files are untracked; `git diff` alone will NOT show them)
+and `git add` it. Read it, then:
+1. EXTEND the facets: BOOK_FACTS first (chapter map, roster, dates), then THEMES / WEAKNESSES /
+   READER_EXPERIENCE / ARCHITECTURE as warranted — atomic, quote-anchored claims.
+2. RECONCILE against PLAN.md: mark promises the chapter pays (status: paid @ anchor); add new
+   promises it opens (PR-##); list every divergence from the plan in DASHBOARD's divergence queue
+   and tell me — do NOT silently rewrite the plan to match the text or vice versa.
+3. If the timeline workbook exists, add the chapter's datable events per block U.
+4. Run `python3 tools/anchors.py` — the new chapter must show covered by BOOK_FACTS, 0 stale.
+Commit manuscript and analysis SEPARATELY and tag ms-YYYY-MM-DD. Report what you added, what the
+chapter paid, and what diverged.
+
+# ============================================================================
+# A) INGEST a MODIFIED chapter  (you overwrote an existing html/ file)
+# ============================================================================
+Read analysis/ICECAPADE_SUBSTRATE_SPEC.md and analysis/DASHBOARD.md.
+I've overwritten one or more existing chapter files in html/ (not yet committed).
+Find what changed: `git diff --name-only HEAD -- html/`, then
+`python3 tools/anchors.py --changed-since HEAD` for the dependent facet anchors; re-verify those
+claims (currency workflow, spec §6), update the facets and their verified_against. Re-check PLAN
+promises whose paid-anchors sit in the changed chapters. If the timeline workbook exists, run
+`python3 tools/timeline_sync.py --since HEAD` and correct flagged rows. Commit manuscript and
+analysis SEPARATELY and tag ms-YYYY-MM-DD. Report what went stale and what you changed.
+
+# ============================================================================
+# K) CONTINUITY SWEEP  (full Q-CONT audit on demand)
+# ============================================================================
+Read analysis/facets/PLAN.md, analysis/facets/BOOK_FACTS.md, and the timeline if it exists.
+Run a full continuity audit of the draft so far: open promises past their planned payoff point,
+plan-vs-text divergences not yet queued, internal contradictions in BOOK_FACTS (names, dates,
+ages, geography), and chronology conflicts. Write renders/Continuity_<date>.md with severities;
+update the DASHBOARD divergence queue. Findings only — no fixes without my direction.
+
+# ============================================================================
+# C) ASK a question / render a deliverable
+# ============================================================================
+Read analysis/DASHBOARD.md and analysis/QUESTIONS.md, then answer <Q-ID or question in words>.
+If the facets it consumes are READY (or PARTIAL and I say go), render the answer and save any
+deliverable to analysis/renders/<Name>_<date>.md, quoting the manuscript only via the facets'
+anchors. If anything is stale or a GAP, tell me what's missing before answering.
+#
+# Question IDs:  Q-CONT continuity audit        Q-NEG    negative review
+#                Q-COMP comps / placement       Q-STRESS unprepared-reader stress test
+#                Q-DEFEND defense               Q-BLURB  jacket copy
+#                Q-PITCH agent/editor pitch     Q-CHAR   character study
+#                Q-THEME thematic essay
+
+# ============================================================================
+# D) AUTONOMOUS "highest-value next pass"  (optional)
+# ============================================================================
+Read analysis/DASHBOARD.md. Without my naming a task, choose the single highest-value next pass,
+state which and why before beginning, do it, update facets / DASHBOARD / QUESTIONS, commit, and
+end by recommending the next action. (Bootstrap-era candidates: seed PLAN, seed POSITIONING from
+PLAN, ingest any un-ingested chapter, scaffold the timeline when chronology warrants.)
+
+# ============================================================================
+# T / U) TIMELINE  — DORMANT
+# ============================================================================
+# The timeline workbook (analysis/IceCapade_timeline.xlsx) is not scaffolded yet. When the draft
+# has real chronology, ask a chat to scaffold it (define sheets + calendar conventions for THIS
+# book, update the sheet-prefix constants in tools/, record conventions in BOOK_FACTS and spec
+# §2.1). From then on, use Critique's T and U blocks verbatim with the new workbook name:
+# T = currency-check via timeline_sync.py; U = approval-gated scene extraction via
+# timeline_scaffold.py (draft rows, WAIT for approval, insert, sync, commit xlsx + mirror).
