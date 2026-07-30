@@ -8,6 +8,7 @@ Companion to Sequence.md and Timeline.1. Node IDs here use distinct prefixes so 
 - **CX-** cascade (discrete geophysical events)
 - **TH-** threshold failures
 - **SY-** slow systems
+- **VO-** Antarctic volcanism
 
 ---
 ---
@@ -64,8 +65,8 @@ Every large river fan on Earth is a candidate. **Nile, Congo, Amazon, Niger, Ind
 ### CX-04 | Y1–30 | Mature faults
 Cascadia, Nankai, the Himalayan front, the North Anatolian, the southern San Andreas, the Alpine Fault. Not caused — advanced. Attribution never resolves and the argument runs for the length of the book.
 
-### CX-05 | Y5–20 | Volcanic response
-Decompression melting under unloaded crust. Iceland's eruption rate rose roughly thirtyfold after the last deglaciation. West Antarctica has an active rift beneath the ice, and every ice-covered volcanic province responds.
+### CX-05 | Y5–20 | Volcanic response — **see Track Five**
+Decompression melting under unloaded crust. This is large enough, and structurally important enough, to have its own track. The visible eruptions are the least of it.
 
 ### CX-06 | Y10–50 | Declining but not stopping
 Rarer, larger intervals. The point at which people stop connecting each event to the original cause, and start treating them as ordinary bad luck.
@@ -193,6 +194,80 @@ First unthinkable, then contested, then policy, then unremarkable. Roughly a gen
 ---
 ---
 
+# TRACK FIVE — Antarctic volcanism, and the feedback nobody modelled
+
+**VO-** prefix.
+
+## Why this mechanism works here and nowhere else in the book
+
+EastCoast.md §5 rejects increased Atlantic volcanism, and the rejection was on two grounds: 40 kPa of sea level is a thousandth of the Iceland unloading, and it *loads* the seafloor rather than unloading it, which is the wrong sign.
+
+**Antarctica is the exact opposite case, and it is the Iceland configuration precisely.** Kilometres of ice removed from directly above the volcanoes — **megapascals** of unloading, applied locally, to a volcanic province that is already active.
+
+Iceland's eruption rate rose roughly **thirtyfold** after the last deglaciation. That number is transferable here in a way it is not transferable anywhere else in this project.
+
+## The province is enormous
+
+The **West Antarctic Rift System** is an active continental rift, comparable in scale to the East African Rift.
+
+A 2017 survey identified on the order of **138 volcanic cones beneath the West Antarctic ice sheet**, most of them previously unknown — making it one of the densest volcanic provinces on Earth, and one nobody could see.
+
+**Mount Erebus** (Ross Island) is persistently active with a long-lived lava lake. **Deception Island** (South Shetlands) has erupted within living memory. **Mount Takahe** and the Marie Byrd Land volcanoes sit directly in the Amundsen sector you are unloading.
+
+---
+
+### VO-01 | Immediate | Crustal flexure
+Unloading bends the crust and opens pathways for magma. Fastest of the three mechanisms; acts on the same clock as the elastic rebound in E-02.
+
+### VO-02 | Y1–20 | Magma chamber depressurisation
+A magma chamber is pressurised fluid held in place by the weight of everything above it. Remove the weight and **existing** magma becomes more likely to erupt — no new melt required. This is the middle clock, and the one that produces eruptions your characters can watch.
+
+### VO-03 | Y20–200 | Decompression melting
+Less pressure on the mantle means more of it melts. Slowest, largest, and the one responsible for the Iceland thirtyfold figure. Runs well past the end of the book.
+
+---
+
+## VO-04 | Y5–60 | **The feedback — the important entry**
+
+Subglacial volcanism does not produce spectacle. It produces **meltwater at the ice–bed interface**, and meltwater is what lets ice slide.
+
+Geothermal heat flow beneath a grounded ice sheet is a direct control on ice velocity. Thwaites in particular sits over anomalously high heat flow, and quantifying it is an active research question right now.
+
+**The loop:**
+
+> unloading → increased volcanism → increased basal melt → lubricated bed → faster ice discharge → **more unloading**
+
+**Time constant: decades to a century.** Positive. Sitting underneath the entire third act.
+
+> **This is better than eruptions as set-piece, because it is a reason the curve steepens that nobody built into the models.**
+>
+> Discovered years late, from the mismatch between projected and observed discharge. It explains why the retreat outruns every projection, and it means the SL- track's staircase (SL-02) has a second, slower driver climbing underneath the pinning-point mechanics.
+>
+> A character can find this in a residual — the part of the acceleration that the ice dynamics do not account for.
+
+## VO-05 | Any time | Direct shelf melting
+A subglacial eruption beneath a floating shelf melts it from below directly. Local, fast, and a way to lose a shelf that has nothing to do with waves.
+
+## VO-06 | Any time | Jökulhlaup
+Meltwater trapped beneath ice by an eruption, released catastrophically. **Iceland's characteristic hazard, and it would be Antarctica's too** — a flood emerging from under an ice sheet with no warning and no watercourse to follow.
+
+Good for a station-scale disaster in the middle act: something that kills people at a research base, years after the waves, from a mechanism nobody at that base was monitoring.
+
+---
+
+## The caveats — have a character voice these
+
+**Eruptions are common in the Antarctic record. Demonstrating the deglaciation link specifically is not settled.** The correlation is inferred from Iceland and from ice-core tephra, not established for Antarctica.
+
+**Response time is poorly constrained.** Whether VO-02 takes five years or fifty is genuinely unknown.
+
+**And rebound cuts the other way.** Isostatic uplift (SY-02) raises the bed, which can restabilise a grounding line — a *negative* feedback running simultaneously with VO-04's positive one. Which wins is an open question, and the West Antarctic mantle's unusually low viscosity means the rebound arrives fast enough to be in the race.
+
+> Two feedbacks, opposite signs, similar time constants, neither well quantified. That is a genuine scientific fight for two characters to have, and it does not resolve inside the book.
+
+---
+---
+
 # The epistemic arc, continued
 
 Sandoval's understanding kept correcting itself through the first seven months. It keeps going.
@@ -230,6 +305,15 @@ From *how do we stop this* to *what do we keep.* Which archives, which cities, w
 - **[H]** Miami-Dade County and USGS material on Biscayne aquifer saltwater intrusion (TH-05)
 - **[H]** Befus et al. — coastal groundwater rise and shoaling water tables (TH-04)
 - **[H]** First Street Foundation and state insurance-commissioner reporting on coastal insurance withdrawal (TH-01). **Present-day, ongoing, and the best-documented item in this file.**
+
+**Track Five — volcanism**
+
+- **[C]** van Wyk de Vries, Bingham & Hein (2017), *Geological Society Special Publications* — the survey identifying ~138 subglacial volcanic cones in West Antarctica
+- **[C]** Sigvaldason et al. (1992); Jull & McKenzie (1996) — Iceland deglaciation and eruption rate; decompression melting. **The thirtyfold figure.**
+- **[C]** Schroeder, Blankenship, Young & Quartini (2014), *PNAS* — elevated geothermal flux beneath Thwaites. **Load-bearing for VO-04.**
+- **[C]** Barletta et al. (2018), *Science* — rapid bedrock uplift, low mantle viscosity. **The counter-feedback.**
+- **[H]** USGS / British Antarctic Survey material on Erebus and Deception Island activity
+- **[H]** Icelandic Met Office material on jökulhlaup mechanics (VO-06)
 
 ---
 

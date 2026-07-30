@@ -1,0 +1,474 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /home/berman/IceCapade/lyx/
+\textclass extbook
+\begin_preamble
+% Options for packages loaded elsewhere
+
+
+\usepackage{xcolor}
+ % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage{textcomp}% provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}% this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+
+\usepackage{array}\usepackage{calc}% for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+
+\newsavebox\pandoc@box
+\newcommand*{\pandocbounded}[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+
+
+\author{}
+\raggedbottom
+\widowpenalty=10000
+\clubpenalty=10000
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children no
+\language american
+\language_package none
+\inputencoding utf8-cjk
+\fontencoding T1
+\font_roman "lmodern" "Noto Serif CJK SC"
+\font_sans "default" "Noto Sans CJK SC"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\font_cjk bsmi
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format pdf2
+\output_sync 1
+\output_sync_macro "\synctex=1"
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_title "Ice Capades"
+\pdf_author "Leonard Berman"
+\pdf_subject "Humanity"
+\pdf_keywords "AI, peace, family, greed"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 2
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref section
+\pdf_pdfusetitle false
+\pdf_quoted_options "hidelinks,pdfcreator={LaTeX via pandoc}"
+\papersize letter
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\spellchecker_ignore english post-doc
+\spellchecker_ignore english didn
+\spellchecker_ignore english Tzu
+\spellchecker_ignore english Gogh
+\spellchecker_ignore english Aris
+\spellchecker_ignore english hoaxster
+\spellchecker_ignore english Aum's
+\spellchecker_ignore english CNCR
+\spellchecker_ignore english Elihue
+\spellchecker_ignore english Mayanda
+\spellchecker_ignore english Armitrage
+\spellchecker_ignore english e-board
+\spellchecker_ignore english enrobed
+\spellchecker_ignore english Mei
+\spellchecker_ignore english Raghavan
+\spellchecker_ignore english postdoctorate
+\spellchecker_ignore english hyper-interconnected
+\spellchecker_ignore english might-have-beens
+\spellchecker_ignore english operationalizing
+\spellchecker_ignore english pre-prints
+\spellchecker_ignore english M-theory
+\spellchecker_ignore english pre-print
+\spellchecker_ignore english Calabi-Yau
+\spellchecker_ignore english foliation
+\spellchecker_ignore english foliations
+\spellchecker_ignore english vibrational
+\spellchecker_ignore english weren
+\spellchecker_ignore english unsayable
+\spellchecker_ignore english unmoored
+\spellchecker_ignore english re-electrification
+\spellchecker_ignore english wristlets
+\spellchecker_ignore english untestable
+\spellchecker_ignore english Xina
+\spellchecker_ignore english biotic
+\spellchecker_ignore english Xina's
+\spellchecker_ignore english Poonam's
+\spellchecker_ignore english Atul
+\spellchecker_ignore english ve
+\spellchecker_ignore english isn
+\spellchecker_ignore english CAF
+\spellchecker_ignore english DSC
+\spellchecker_ignore english MICRO-FLUCTUATIONS
+\spellchecker_ignore english -DSC
+\spellchecker_ignore english Micro-fluctuations
+\spellchecker_ignore english two-dimensionality
+\spellchecker_ignore english micro-fluctuations
+\spellchecker_ignore english aren
+\spellchecker_ignore english AVs
+\spellchecker_ignore english comm'd
+\spellchecker_ignore english Aethel-Li
+\spellchecker_ignore english Hameroff
+\spellchecker_ignore english Homi
+\spellchecker_ignore english Bhabha
+\spellchecker_ignore english Lias
+\spellchecker_ignore english speaking'
+\spellchecker_ignore english mals
+\spellchecker_ignore english great-grandmother
+\spellchecker_ignore english half-darkness
+\spellchecker_ignore english ice-cold
+\spellchecker_ignore english psy-op
+\spellchecker_ignore english reframed
+\spellchecker_ignore english handwritings
+\spellchecker_ignore english world-wide
+\spellchecker_ignore english Mals
+\spellchecker_ignore english off-screen
+\spellchecker_ignore english back-channel
+\spellchecker_ignore english High-altitude
+\spellchecker_ignore english three-hour
+\spellchecker_ignore english mal
+\spellchecker_ignore english early-detection
+\spellchecker_ignore english self-aware
+\spellchecker_ignore english ahimsa
+\spellchecker_ignore english non-conscious
+\spellchecker_ignore english There'll
+\spellchecker_ignore english sangha
+\spellchecker_ignore english recalibration
+\spellchecker_ignore english off-grid
+\spellchecker_ignore english half-expected
+\spellchecker_ignore english soon-to-be
+\spellchecker_ignore english son-in-law
+\spellchecker_ignore english Buddha-nature
+\spellchecker_ignore english microtubule-bearing
+\spellchecker_ignore english microtubule
+\spellchecker_ignore english Pre-conscious
+\spellchecker_ignore english mycelial
+\spellchecker_ignore english else's
+\spellchecker_ignore english twelve-hour
+\spellchecker_ignore english cultured-yeast
+\spellchecker_ignore english family-only
+\spellchecker_ignore english steam-frosted
+\spellchecker_ignore english four-dimensional
+\spellchecker_ignore english wokeness
+\spellchecker_ignore english guardedness
+\spellchecker_ignore english father-in-law
+\spellchecker_ignore english well-being
+\spellchecker_ignore english fractal-like
+\spellchecker_ignore english fifteen-minute
+\spellchecker_ignore english Goldberg-esque
+\spellchecker_ignore english nut-bread
+\spellchecker_ignore english Drs
+\spellchecker_ignore english Thorne
+\spellchecker_ignore english Petrova
+\spellchecker_ignore english rehydration
+\spellchecker_ignore english couples'
+\spellchecker_ignore english Thyself'
+\spellchecker_ignore english great-aunt
+\spellchecker_ignore english half-second
+\spellchecker_ignore english farro
+\spellchecker_ignore english air-fried
+\spellchecker_ignore english analog-to-digital
+\spellchecker_ignore english 'reading
+\spellchecker_ignore english 'other
+\spellchecker_ignore english 'I'
+\spellchecker_ignore english 'it'
+\spellchecker_ignore english 'other'
+\spellchecker_ignore english ten-speed
+\spellchecker_ignore english tear-streaked
+\spellchecker_ignore english full-throated
+\spellchecker_ignore english network-god
+\spellchecker_ignore english life-giving
+\spellchecker_ignore english 'They
+\spellchecker_ignore english 'they'
+\spellchecker_ignore english 'vessel'
+\spellchecker_ignore english One-thirty
+\spellchecker_ignore english gene-splicing
+\spellchecker_ignore english 'man
+\spellchecker_ignore english self-awareness
+\spellchecker_ignore english human-centric
+\spellchecker_ignore english pre-dawn
+\spellchecker_ignore english cross-legged
+\spellchecker_ignore english non-harm
+\spellchecker_ignore english subgraphs
+\spellchecker_ignore english bio-emotional
+\spellchecker_ignore english enzyme-induced
+\spellchecker_ignore english white-hot
+\spellchecker_ignore english Kaelen-like
+\spellchecker_ignore english heart-stopping
+\spellchecker_ignore english not-pain
+\spellchecker_ignore english Mid-push-up
+\spellchecker_ignore english 'fun'
+\spellchecker_ignore english 'beauty'
+\spellchecker_ignore english 'asabiya'
+\spellchecker_ignore english Non-SI
+\spellchecker_ignore english Kaelen-pattern
+\spellchecker_ignore english not-me
+\spellchecker_ignore english São
+\spellchecker_ignore english Paulo
+\spellchecker_ignore english Pérotin
+\spellchecker_ignore english half-truth
+\spellchecker_ignore english Cliodynamics
+\spellchecker_ignore english multi-dimensional
+\spellchecker_ignore english Use-Values
+\spellchecker_ignore english Turchin
+\spellchecker_ignore english Karmageddon
+\spellchecker_ignore english Berman
+\spellchecker_ignore english Aethel-Porter
+\spellchecker_ignore english mid-sentence
+\spellchecker_ignore english 'Stinsard
+\spellchecker_ignore english ASAP'
+\spellchecker_ignore english DoorFinder
+\spellchecker_ignore english ninety-nine
+\spellchecker_ignore english meet-and-greets
+\spellchecker_ignore english GigaTurings
+\spellchecker_ignore english CEOs
+\spellchecker_ignore english 'Foundations
+\spellchecker_ignore english Consciousness'
+\spellchecker_ignore english for---not
+\spellchecker_ignore english -M
+\spellchecker_ignore english unshared
+\spellchecker_ignore english Ph
+\spellchecker_ignore english Ds
+\spellchecker_ignore english BMOC
+\spellchecker_ignore english shell-shocked
+\spellchecker_ignore english high-difficulty
+\spellchecker_ignore english on‑line
+\spellchecker_ignore english café
+\spellchecker_ignore english café's
+\spellchecker_ignore english carry-on
+\spellchecker_ignore english paper-thin
+\spellchecker_ignore english off-key
+\spellchecker_ignore english laid-back
+\spellchecker_ignore english synth-ales
+\spellchecker_ignore english synth-pop
+\spellchecker_ignore english good-natured
+\spellchecker_ignore english Gödel
+\spellchecker_ignore english Self-reference
+\spellchecker_ignore english Themself
+\spellchecker_ignore english thunked
+\spellchecker_ignore english thrusters
+\spellchecker_ignore english four-hour
+\spellchecker_ignore english Pudong's
+\spellchecker_ignore english Shanghainese
+\spellchecker_ignore english formidable-looking
+\spellchecker_ignore english de
+\spellchecker_ignore english baobao
+\spellchecker_ignore english ke
+\spellchecker_ignore english ai
+\spellchecker_ignore english 他叫
+\spellchecker_ignore english 我到
+\spellchecker_ignore english Xièxiè
+\spellchecker_ignore english nín
+\spellchecker_ignore english jiào
+\spellchecker_ignore english dào
+\spellchecker_ignore english arcologies
+\spellchecker_ignore english sky-bridges
+\spellchecker_ignore english BYD
+\spellchecker_ignore english gender-neutral
+\spellchecker_ignore english Third-person
+\spellchecker_ignore english mid-twenties
+\spellchecker_ignore english Pudong
+\spellchecker_ignore english hand'
+\spellchecker_ignore english two-room
+\spellchecker_ignore english trans-Pacific
+\spellchecker_ignore english Mei's
+\spellchecker_ignore english jetlag
+\spellchecker_ignore english 'system
+\spellchecker_ignore english fail-safes
+\spellchecker_ignore english Jian
+\spellchecker_ignore english Zhāng
+\spellchecker_ignore english PDFs
+\spellchecker_ignore english paraphenalia
+\spellchecker_ignore english befooling
+\spellchecker_ignore english multi-colored
+\spellchecker_ignore english non-living
+\spellchecker_ignore english convolved
+\spellchecker_ignore english Anugraha
+\spellchecker_ignore english vise-like
+\spellchecker_ignore english one-year-old
+\spellchecker_ignore english co-parenting
+\spellchecker_ignore english syrup-slow
+\spellchecker_ignore english ever-present
+\spellchecker_ignore english twenty-two
+\spellchecker_ignore english 'saturated
+\spellchecker_ignore english systems'
+\spellchecker_ignore english co-existing
+\spellchecker_ignore english non-linear
+\spellchecker_ignore english entanglement'
+\spellchecker_ignore english head-spinning
+\spellchecker_ignore english wide-eyed
+\spellchecker_ignore english comm-screen
+\spellchecker_ignore english low-grade
+\spellchecker_ignore english hinge-moments
+\spellchecker_ignore english JPL
+\spellchecker_ignore english Einstein-ette
+\spellchecker_ignore english Wi-Fi
+\spellchecker_ignore english super-sensitive
+\spellchecker_ignore english serious-faced
+\spellchecker_ignore english quasi-particles
+\spellchecker_ignore english neuro-biological
+\spellchecker_ignore english non-biological
+\spellchecker_ignore english briefers
+\spellchecker_ignore english 'malfunctions'
+\spellchecker_ignore english grief-stricken
+\spellchecker_ignore english 'advanced
+\spellchecker_ignore english twenty-six
+\spellchecker_ignore english sixteen-year-old
+\spellchecker_ignore english screwed'
+\spellchecker_ignore english 'alive'
+\spellchecker_ignore english 'living'
+\spellchecker_ignore english dignitaries'
+\spellchecker_ignore english 'planetary
+\spellchecker_ignore english emergency'
+\spellchecker_ignore english 'No
+\spellchecker_ignore english 'emotionally
+\spellchecker_ignore english 'what
+\spellchecker_ignore english facto
+\spellchecker_ignore english -Maya
+\spellchecker_ignore english QW
+\spellchecker_ignore english 'NO
+\spellchecker_ignore english WAR'
+\spellchecker_ignore english 'ma'am'
+\spellchecker_ignore english 'microphone
+\spellchecker_ignore english 'YES
+\spellchecker_ignore english 'unusual
+\spellchecker_ignore english behavior'
+\spellchecker_ignore english POV
+\spellchecker_ignore english Notre
+\spellchecker_ignore english backed-up
+\spellchecker_ignore english curve-ball
+\spellchecker_ignore english shoebox
+\leftmargin 1.33in
+\rightmargin 1.33in
+\secnumdepth -2
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 2em
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style plain
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars true
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Ice Capades
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "ice.lyx"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

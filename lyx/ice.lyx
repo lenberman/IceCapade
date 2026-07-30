@@ -1,0 +1,688 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /home/berman/IceCapade/lyx/
+\textclass extbook
+\begin_preamble
+% Options for packages loaded elsewhere
+
+
+\usepackage{xcolor}
+ % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage{textcomp}% provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}% this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+
+\usepackage{array}\usepackage{calc}% for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+
+\newsavebox\pandoc@box
+\newcommand*{\pandocbounded}[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+
+
+\author{}
+\raggedbottom
+\widowpenalty=10000
+\clubpenalty=10000
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children no
+\language american
+\language_package none
+\inputencoding utf8-cjk
+\fontencoding T1
+\font_roman "lmodern" "Noto Serif CJK SC"
+\font_sans "default" "Noto Sans CJK SC"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\font_cjk bsmi
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format pdf2
+\output_sync 1
+\output_sync_macro "\synctex=1"
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_author "Leonard Berman"
+\pdf_subject "Humanity"
+\pdf_keywords "AI, peace, family, greed"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 2
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref section
+\pdf_pdfusetitle false
+\pdf_quoted_options "hidelinks,pdfcreator={LaTeX via pandoc}"
+\papersize letter
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.33in
+\rightmargin 1.33in
+\secnumdepth -2
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 2em
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style plain
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars true
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Ice
+\end_layout
+
+\begin_layout Section
+Hawaiʻi
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+S1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Clatter from the stove,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Ouch!
+ Shit!
+\begin_inset Quotes qrd
+\end_inset
+
+ I cry.
+ Tūtū sitting in her straight-back chair,
+ watching the clouds shimmer as the sun descended,
+ elsewhen in her eyes,
+ calls 
+\begin_inset Quotes qld
+\end_inset
+
+Kuʻu hiwahiwa,
+ are you alright?
+\begin_inset Quotes qrd
+\end_inset
+
+ Lehua continues reading at the table.
+ I've been preparing Spam musubi for Lehua's dessert.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Oh,
+ it's nothing,
+ Tūtū,
+ spitting glaze.
+ For the silent one.
+ Lehua,
+ 
+\begin_inset space ~
+\end_inset
+
+Kuʻu lei,
+ help,
+ get me ice!
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+I'm reading.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Stop reading!
+ Get me ice and set the table.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Mom\SpecialChar ldots
+,
+\begin_inset Quotes qrd
+\end_inset
+
+ she said,
+ rising.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+And come here when you've finished,
+\begin_inset Quotes qrd
+\end_inset
+
+ Tūtū added.
+\end_layout
+
+\begin_layout Standard
+As I finished the musubi and got my ice,
+ I glanced at them and then at the table,
+ set for three.
+ Sadness,
+ mitigated by joy.
+ Ikaika at school,
+ well launched,
+ and Tomás gone,
+ so long gone.
+ 
+\end_layout
+
+\begin_layout Standard
+I pulled out dinner,
+ takeout from L&L and placed it amidst the settings that Lehua had made.
+ As I straightened,
+ I saw them again.
+ Lehua captivated by Tūtū's tales,
+ as I had been thirty years before.
+ They were strong tales.
+ I had come back.
+ I called them,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Kuʻu mau hiwahiwa.
+ E ʻai kākou!
+\begin_inset Quotes qrd
+\end_inset
+
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Quotes qld
+\end_inset
+
+Come my darlings.
+ Let's eat!
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We sat and ate:
+ Tūtū at the head of the table,
+ Lehua at her left hand,
+ and I to her right.
+ Later,
+ when the bones were picked clean and Lehua had opened her book,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Tūtū,
+ what tales were you planting in Lehua's head?
+\begin_inset Quotes qrd
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Tales of the families.
+ Stories I've told you.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+"So Lehua,
+ what have you learned?"
+\end_layout
+
+\begin_layout Standard
+Lehua kept her thumb in the book and briefly lifted her head,
+ saying "That the waters can recede and return."
+\end_layout
+
+\begin_layout Standard
+I continued,
+ "So,
+ go on.
+ What happens to Waiākea?"
+\end_layout
+
+\begin_layout Standard
+Lehua replaced her thumb with her bookmark and continued,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+The bay empties and then,
+ when the waters return,
+ they are angry and fierce.
+ They sweep away everything below a certain point:
+ people,
+ buildings,
+ roads.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+She looked at Tutu,
+ "And in nineteen forty-six,
+ when Tūtū was eleven,
+ the waters left and no one knew what it meant.
+ She walked with her father to look at the reef.
+ She saw the bottom of the bay,
+ fish standing on their sides.
+ No one knew what would happen next;
+ they were told later,
+ many died.\SpecialChar ldots
+"
+\end_layout
+
+\begin_layout Standard
+As she hesitated,
+ Tutu continued,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+And I spoke of nineteen sixty as well.
+ We knew by then,
+ and still,
+ sixty died and the family store was destroyed." Tūtū looked at me.
+ "I spoke of the streets gone forever."
+\end_layout
+
+\begin_layout Standard
+"We walked those streets together," I said.
+\end_layout
+
+\begin_layout Standard
+"You walked.
+ I sat."
+\end_layout
+
+\begin_layout Standard
+"Mom.
+ Is that why you do the library thing?"
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+Bzzzz
+\series default
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+My phone,
+ face down on the table,
+ hummed strangely.
+ Tutu and Lehua looked at the phone and then at me,
+ quizzically.
+ I understood.
+\end_layout
+
+\begin_layout Standard
+It was Oscar.
+\end_layout
+
+\begin_layout Standard
+I had set it up years ago,
+ when I realized my grant proposals weren't being funded,
+ to watch hydroacoustic feeds for ice sounds.
+ Many watched them,
+ few watched for ice.
+ In six years it sent four alerts:
+ a blue whale on a bad bearing,
+ a seamount venting and twice clock drift.
+\end_layout
+
+\begin_layout Standard
+"Excuse me," I said.
+ 
+\begin_inset Quotes xld
+\end_inset
+
+Lehua,
+ no reading until you've cleaned up.
+\begin_inset Quotes xrd
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+I looked at Tutu,
+ who was watching me with a steady gaze.
+ I picked up the phone,
+ went to my room,
+ and closed the door.
+\end_layout
+
+\begin_layout Standard
+I went to my desk and opened Oscar on my screen,
+ I typed,
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Explain alert
+\end_layout
+
+\begin_layout Standard
+A window opened showing a waveform,
+ labelled:
+ HA01,
+ Cape Leeuwin,
+ T04:12:07Z.
+ A classic ice collapse waveform:
+ a descending sweep,
+ eleven hertz down to four across three hundred and forty seconds.
+\end_layout
+
+\begin_layout Standard
+I knew the shape,
+ the sound of ice cracking.
+ I looked at the y-axis and typed.
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Amplitude
+\family default
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+It gave me the number.
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Again.
+\end_layout
+
+\begin_layout Standard
+It could not be —
+ three orders of magnitude too large.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Current HA01 waveform
+\end_layout
+
+\begin_layout Standard
+Oscar displayed a new signal,
+ constant and maxed out.
+ The HA01 signal was the waveform of a damaged hydrophone.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Examine Crozet hydrophones,
+ HA04
+\end_layout
+
+\begin_layout Standard
+Crozet is a French rock,
+ significantly west of Leeuwin with three hydrophones.
+ 
+\end_layout
+
+\begin_layout Standard
+Oscar repainted the window.
+ Crozet had it.
+ The same waveform as HA01,
+ appropriately late and not maxed out,
+ just unimaginable.
+ We knew the detector locations and we knew ΔT.
+ I turned to Oscar.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Display possible source locii
+\end_layout
+
+\begin_layout Standard
+My screen filled with a 3D globe intersected by a hyperboloid.
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Display surface intersection
+\end_layout
+
+\begin_layout Standard
+The screen flickered and the surface of the globe reappeared,
+ marked by a hyperbola slicing right through Prydz Bay.
+ If that was the source,
+ it put the event at twenty past three,
+ fifty-two minutes before it reached Leeuwin.
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+What is coming out of Prydz Bay?
+\end_layout
+
+\begin_layout Standard
+Oscar responded,
+ "Nothing since three twenty.
+ Davis stopped at three nineteen.
+ Zhongshan,
+ Progress and Bharati at three twenty."
+\end_layout
+
+\begin_layout Standard
+Antarctic telemetry drops.
+ It drops for weather and it drops for satellite windows.
+\end_layout
+
+\begin_layout Standard
+I closed Oscar,
+ the screen and laptop.
+ I needed to share.
+\end_layout
+
+\begin_layout Standard
+The table was cleared and Lehua back at her book.
+ Tūtū was in her chair,
+ and the light had gone out of the sky while I was in my room.
+\end_layout
+
+\begin_layout Standard
+Tutu turned and watched me emerge.
+ She looked at me and asked,
+ "How long?"
+\end_layout
+
+\begin_layout Standard
+"It isn't that kind,
+ Tūtū.
+ It's ice.
+ Ice floats —
+ all of it,
+ all the time,
+ it's already floating.
+ It doesn't make a wave."
+\end_layout
+
+\begin_layout Standard
+She looked at me a while longer and turned back to the window,
+ where there was nothing new to see.
+\end_layout
+
+\end_body
+\end_document
