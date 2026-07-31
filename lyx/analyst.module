@@ -1,0 +1,34 @@
+#\DeclareLyXModule{Machine Output}
+#DescriptionBegin
+#Paragraph styles for machine output. Analyst: institutional, sans, ruled.
+#DescriptionEnd
+Format 104
+Preamble
+	\newenvironment{analyst}%
+	  {\par\addvspace{\medskipamount}%
+	   \noindent\rule{\linewidth}{0.4pt}\par\nobreak\vspace{2pt}%
+	   \begingroup\sffamily\small\setlength{\parindent}{0pt}%
+	   \leftskip=1.5em \rightskip=1.5em}%
+	  {\par\endgroup\vspace{2pt}%
+	   \noindent\rule{\linewidth}{0.4pt}\par\addvspace{\medskipamount}}
+	\newcommand{\analystfrom}[1]{{\scshape\footnotesize #1}\par\vspace{2pt}}
+EndPreamble
+Style Analyst
+	Category      MainText
+	Margin        Static
+	LatexType     Environment
+	LatexName     analyst
+	NextNoIndent  1
+	ParIndent     ""
+	LeftMargin    MMM
+	RightMargin   MMM
+	TopSep        0.7
+	BottomSep     0.7
+	ParSep        0.4
+	Align         Block
+	LabelType     No_Label
+	Font
+	  Family      Sans
+	  Size        Small
+	EndFont
+End

@@ -99,6 +99,8 @@ Competent, careful, institutionally fluent, and aware that fluency is what he tr
 
 **Oscar.** Nālani's LLM assistant. **"It," never "he."** She named it and has no illusions about it; the book has exactly one machine with a masculine pronoun and that is Tomás's model code. **Typed, never spoken.** Instrument, never oracle: it fetches, computes and reports, and never interprets. It must never notice anything before a human does, and it does not run Tomás's model.
 
+**Edgar.** Daniel's assistant — institutional where Oscar is personal. Set on the page in the **Analyst** style: sans, small, indented, ruled above and below, against Oscar's typewriter. Both men type to their machines in the same monospaced bold; the difference the book states is not how they are addressed but what talks back. **Daniel and Edgar work in UTC** — see Ledger #37.
+
 **Supporting:** **Kawika Pang**, Hilo civil defense, who trusts Nālani because she has shown up for eleven straight years; Daniel's boss, an SES careerist who owns the word "premature."
 
 ---
@@ -321,4 +323,6 @@ Numbering preserved from `Scenes.2.md` so existing references still resolve.
 33. **The Griers eat at the counter**; the table is abandoned. Eve stopped sitting with them and her parents followed. This is the S1 rhyme and nothing may point at it.
 34. **The cottage is five generations**, Ellen's family, and **Ellen makes plenty.**
 35. **Daniel agrees with things.** *"Sure"* in the kitchen, *he concurs* in the office. The rhyme is the character.
+37. **Daniel and Edgar work in UTC.** Not just Edgar's output — Daniel himself. He came off a 24/7 watch floor where everything was Z, and he never converts. This is the sharpest available contrast with Nālani, whose scenes run on Hilo evening light and who has to be *told* the Greenwich time by a machine. Consequence to decide: whether Daniel's subsection heads switch to `2031-05-15T11:00:00Z` while hers stay local-with-offset. See `Calendar.md` §2a.
+38. **Typographic registers.** Both men type to their assistants in monospaced bold. **Oscar answers in typewriter; Edgar answers in the `Analyst` style** — sans, small, indented, ruled. The difference is not how the machines are addressed but what talks back: hers is a terminal she drives, his is an institution reporting at him. Defined in `lyx/analyst.module`; see `Typography.md`.
 36. **Daniel's employer.** Commerce → NOAA → **National Weather Service** → the **Tsunami Program**, whose manager sits in the NWS Marine, Tropical, and Tsunami Services Branch. **NWS HQ is SSMC2, 1325 East-West Highway, Silver Spring** — one of four NOAA towers around a plaza at the Metro. He is **headquarters, not operations**: warnings are issued by PTWC (Ford Island) and NTWC (Palmer, Alaska). He owns DART, the seismic feeds, international assessment and the NTHMP partnership with FEMA, USGS and the states. **Grade GS-15** — the ceiling for someone who never converted to SES, which is what his boss is. Full detail in `SilverSpring.md`.

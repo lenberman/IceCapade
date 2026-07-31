@@ -76,6 +76,9 @@
 \end_preamble
 \use_default_options false
 \master IceCapades.lyx
+\begin_modules
+analyst
+\end_modules
 \maintain_unincluded_children no
 \language american
 \language_package none
@@ -696,6 +699,16 @@ She looked at me a while longer and turned back to the window,
 
 \begin_layout Section
 Silver Spring
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+S2
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1027,31 +1040,283 @@ I'm of to my seven-thirty.
 \end_layout
 
 \begin_layout Standard
+As the door closed,
+ Eve looked up and went to Daniel.
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Hi Dad.
+\begin_inset Quotes qrd
+\end_inset
+
+ She said putting her arm around him.
+ They hugged.
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Gotta run.
+ Love you.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Daniel sat,
+ smiling and watching,
+ as she left.
+\end_layout
+
+\begin_layout Subsection
+T08:30:00-04:00
+\end_layout
+
+\begin_layout Standard
+As Daniel pedaled up to the NOAA Fitness Center,
+ thoughts of the morning flickered in his mind.
+ He thought of Eve,
+ his darling,
+ soon off to college and life,
+ and of Ellen.
+ He parked his bike and began his morning freshen up.
+ The center was a bright spot.
+ He could bike to work and be presentable at nine.
+ 
+\end_layout
+
+\begin_layout Standard
+He walked into his office just before nine and checked the paper calendar which graced his desk.
+ Nothing until later.
+ 
+\begin_inset Branch Scenes.2
+inverted 0
+status collapsed
+
+\begin_layout Standard
+He was fond of his paper calendar.
+ When his colleagues called him old fashioned,
+ he always replied with a smile,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+No e-bikes,
+ no e-calendars
+\begin_inset Quotes qrd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The government required two factor authentication and an eight character password that changed every thirty days.
+ Some days,
+ this drove him crazy but today,
+ he had his security fob in his pocket and the current password written on the back of a business card.
+ 
+\end_layout
+
+\end_inset
+
+ He grabbed a coffee from the department snack-room and sat down to start his workstation and begin his day.
+ 
+\end_layout
+
+\begin_layout Standard
+He brought up his AI assistant,
+ a government issue LLM named Edgar,
+ guaranteed secure.
+ He typed,
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Top priority items.
+\end_layout
+
+\begin_layout Analyst
+
+\series bold
+1.
+ IMS HA01 Cape Leeuwin ::
+ 0412Z
+\end_layout
+
+\begin_layout Analyst
+
+\series bold
+2.
+ IMS HA04 Crozet ::
+ 1051Z
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Expand 1.
+\end_layout
+
+\begin_layout Analyst
+Cape Leeuwin posted at 2031-05-14T0412Z.
+ Broadband arrival:
+\end_layout
+
+\begin_layout Standard
 \begin_inset Branch Draft
 inverted 0
 status open
 
 \begin_layout Standard
-Then the office,
- where four notices from four agencies sit in his queue
+Two were waiting when he sat down,
+ both forwarded from Ford Island,
+ which was one of the small daily reminders that the place he had been useful in was still running without him.
 \end_layout
 
 \begin_layout Standard
-and the desk consensus assembles itself:
- floating ice,
- Larsen B
+Cape Leeuwin had posted at ten past midnight.
+ Broadband arrival,
+ eleven hertz down to four across most of six minutes,
+ back-azimuth 189,
+ origin Prydz Bay at about twenty past three Greenwich.
+ Largest amplitude on that instrument's record.
 \end_layout
 
 \begin_layout Standard
-precedent,
- displaces its own weight,
- no seismic source,
- no wave.
+Crozet had posted at ten to seven,
+ while he was standing at his end of the counter listening to what a roof cost.
+ Second arrival,
+ comparable character,
+ back-azimuth 214.
+ The solution did not match Cape Leeuwin's.
+ It put the source in the Weddell.
 \end_layout
 
 \begin_layout Standard
-Every sentence true.
- He concurs.
+There was a query appended to the Crozet notice,
+ addressed to Cape Leeuwin.
+ *Is your 0412 event ongoing?*
+\end_layout
+
+\begin_layout Standard
+Nobody had answered it.
+\end_layout
+
+\begin_layout Standard
+By nine there were six people in his doorway and nobody had asked any of them to come.
+\end_layout
+
+\begin_layout Standard
+"They're not one event."
+\end_layout
+
+\begin_layout Standard
+"Eight hours and forty degrees apart.
+ They're two."
+\end_layout
+
+\begin_layout Standard
+"Then it's two shelves."
+\end_layout
+
+\begin_layout Standard
+"It's shelf ice either way."
+\end_layout
+
+\begin_layout Standard
+Nobody argued with that,
+ because it was not arguable.
+ Ice that floats displaces its own weight.
+ It had been floating yesterday and it was floating this morning,
+ in pieces,
+ and the ocean could not tell the difference.
+ Larsen B had put three thousand two hundred and fifty square kilometres into the Weddell and the tide gauges had not noticed.
+\end_layout
+
+\begin_layout Standard
+"Seismic?"
+\end_layout
+
+\begin_layout Standard
+"Nothing.
+ No rupture,
+ no origin,
+ nothing to evaluate."
+\end_layout
+
+\begin_layout Standard
+"Then there's no wave."
+\end_layout
+
+\begin_layout Standard
+Somebody at the back asked what happened to the grounded ice behind the shelves.
+ Daniel could not afterward remember who it was,
+ and that it mattered to him later that he could not remember was,
+ he thought,
+ the measure of the morning.
+\end_layout
+
+\begin_layout Standard
+"Grounded ice moves at the speed of ice."
+\end_layout
+
+\begin_layout Standard
+Which was also correct.
+\end_layout
+
+\begin_layout Standard
+Juan Fernández came in at a quarter to twelve.
+ A third arrival,
+ a third ocean —
+ the Amundsen embayment,
+ about ten to three Greenwich.
+ At twenty past,
+ the Pacific centre put out an information statement:
+ sea level disturbance recorded at Scott Base and at three DART buoys in the Ross sector,
+ no seismic origin,
+ under evaluation.
+\end_layout
+
+\begin_layout Standard
+Four notices.
+ Four agencies.
+ Four oceans.
+ Nothing in any of them referred to anything in any of the others.
+\end_layout
+
+\begin_layout Standard
+The room did not change its mind,
+ and the reason it did not was that no part of the argument had ever depended on how many.
+\end_layout
+
+\begin_layout Standard
+Every sentence was true.
+ He had taught two of them himself,
+ to duty scientists half his age,
+ on a shift floor,
+ at three in the morning.
+\end_layout
+
+\begin_layout Standard
+The cancellation wanted a US concurrence.
+ It came to him because the form had a box for the deputy director and he was the deputy director.
+\end_layout
+
+\begin_layout Standard
+He read it once more.
+ Floating ice.
+ No source.
+ No wave.
+\end_layout
+
+\begin_layout Standard
+He concurred.
 \end_layout
 
 \end_inset

@@ -10,6 +10,7 @@
 
 
 \usepackage{xcolor}
+
  % remove section numbering
 \usepackage{iftex}
 \ifPDFTeX
@@ -75,6 +76,9 @@
 \clubpenalty=10000
 \end_preamble
 \use_default_options false
+\begin_modules
+analyst
+\end_modules
 \maintain_unincluded_children no
 \language american
 \language_package none
