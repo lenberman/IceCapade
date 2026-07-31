@@ -1,0 +1,140 @@
+# IceCapade — operating prompts (v2; LyX manuscript)
+#
+# Paste the relevant block into a NEW chat with this folder open. Every chat also reads
+# CLAUDE.md automatically — that file, not this one, carries the hard rules about never
+# editing .lyx, the T=0 time convention, diacritics, and prose constraints.
+#
+# Detail lives in analysis/ICECAPADE_SUBSTRATE_SPEC.md; full how-to in analysis/USAGE.md.
+# NOTE: both of those, plus DASHBOARD.md and the three scripts in tools/, still describe the
+# manuscript as living in html/. See block E below before trusting them.
+#
+# Blocks: E) reconcile the substrate to LyX (do this first) · P) seed/revise the plan ·
+#         B) ingest new chapter · A) ingest modified chapter · K) continuity sweep ·
+#         C) ask a question / render · D) autonomous next pass ·
+#         T/U) timeline (DORMANT until the workbook is scaffolded — see USAGE)
+
+# ============================================================================
+# MANUSCRIPT LAYOUT — true as of the Ice chapter
+# ============================================================================
+# lyx/IceCapades.lyx   master. extbook, title, \include of each chapter child. Nothing else.
+# lyx/ice.lyx          chapter child. Chapter "Ice", Section "Hawaiʻi", scene ID S1 in a
+#                      collapsed Note on the section head.
+# html/                GENERATED, not authored. See block E.
+# reference/           research, outlines, and staged suggestions. Input only.
+# reference/Scenes.2.md  the working spine, cast and consistency ledger.
+# reference/S1-suggestions.md  and siblings: prose Claude proposes, for Len to paste.
+#
+# Chapters are named for a substance, sections for a place. Scene IDs never print.
+# NO CHAT EDITS lyx/*.lyx. Suggested prose goes to reference/<scene>-suggestions.md.
+
+# ============================================================================
+# E) RECONCILE the SUBSTRATE to LyX   (one-time; run before B, A, K or T/U)
+# ============================================================================
+Read analysis/ICECAPADE_SUBSTRATE_SPEC.md, analysis/USAGE.md, analysis/DASHBOARD.md and
+tools/anchors.py. The substrate was adapted from a project whose manuscript was HTML; this
+book's manuscript is LyX, and html/ is empty. The tools glob html/*.html and unescape HTML
+entities, so they currently find nothing and report success.
+Do NOT port the tools to parse .lyx — that format is hostile to prose extraction (quote insets,
+Note insets, SpecialChar). Instead make html/ a generated view:
+    lyx --export xhtml lyx/IceCapades.lyx      # or per chapter child
+    (output moved to html/<chapter>.html)
+Then: lyx/ is ground truth and authored; html/ is a derived anchoring surface, regenerated
+before any anchor operation and never hand-edited. Propose the exact export command and the
+.gitignore treatment for html/ (tracked as a derived artifact, or ignored and rebuilt) before
+changing anything. Update the spec, USAGE, and the three tools' docstrings to say so.
+Report what you changed and what you left alone.
+
+# ============================================================================
+# P) SEED or REVISE the PLAN  (also for outline changes)
+# ============================================================================
+Read analysis/ICECAPADE_SUBSTRATE_SPEC.md and analysis/facets/PLAN.md.
+I want to work on the plan. Take what I give you (conversation, notes, or files in reference/)
+and express it as PLAN.md content: premise, arc, the planned-chapter table, plan claims (PL-##),
+and open promises (PR-##, each with where it must pay off). reference/Scenes.2.md is the current
+spine — treat its Cast and consistency ledger as authoritative and its scene sketches as
+provisional. Show me the draft before writing.
+If PLAN already has content, treat this as a revision: preserve claim IDs where the idea survives,
+retire what I've dropped, and list anything the change puts in conflict with already-written text
+(divergence queue). If POSITIONING can be seeded/updated from the plan (basis: plan), propose that
+too. Commit as an analysis commit; update DASHBOARD + QUESTIONS readiness.
+
+# ============================================================================
+# B) INGEST a NEW chapter  (you added a new child to lyx/)  ← the primary flow
+# ============================================================================
+Read analysis/ICECAPADE_SUBSTRATE_SPEC.md (esp. §7.1), analysis/DASHBOARD.md, and
+analysis/QUESTIONS.md. I've added a NEW chapter child under lyx/ and an \include for it in
+lyx/IceCapades.lyx. Detect it with `git status --porcelain -- lyx/` (new files are untracked;
+`git diff` alone will NOT show them) and `git add` it. Regenerate html/ per block E, then:
+1. EXTEND the facets: BOOK_FACTS first (chapter map, roster, dates), then THEMES / WEAKNESSES /
+   READER_EXPERIENCE / ARCHITECTURE as warranted — atomic, quote-anchored claims.
+2. RECONCILE against PLAN.md and reference/Scenes.2.md: mark promises the chapter pays (status:
+   paid @ anchor); add new promises it opens (PR-##); list every divergence in DASHBOARD's
+   divergence queue and tell me. Do NOT silently rewrite the plan to match the text, the text to
+   match the plan, or Scenes to match either — a manuscript/Scenes conflict means Scenes is out
+   of date, and I decide whether to record it.
+3. If the timeline workbook exists, add the chapter's datable events per block U.
+4. Run `python3 tools/anchors.py` — the new chapter must show covered by BOOK_FACTS, 0 stale.
+Commit manuscript and analysis SEPARATELY. Tag the manuscript commit with a name used only once
+(S2-draft1, ms-YYYY-MM-DD) — never reuse a tag; commit.sh's `git tag -f` moves them silently.
+Report what you added, what the chapter paid, and what diverged.
+
+# ============================================================================
+# A) INGEST a MODIFIED chapter  (you revised an existing lyx/ child)
+# ============================================================================
+Read analysis/ICECAPADE_SUBSTRATE_SPEC.md and analysis/DASHBOARD.md.
+I've revised one or more chapter children under lyx/ (not yet committed).
+Find what changed: `git diff --name-only HEAD -- lyx/`, regenerate html/ per block E, then
+`python3 tools/anchors.py --changed-since HEAD` for the dependent facet anchors; re-verify those
+claims (currency workflow, spec §6), update the facets and their verified_against. Re-check PLAN
+promises whose paid-anchors sit in the changed chapters, and re-check reference/Scenes.2.md's
+ledger for anything the revision now contradicts — report, don't reconcile. If the timeline
+workbook exists, run `python3 tools/timeline_sync.py --since HEAD` and correct flagged rows.
+Commit manuscript and analysis SEPARATELY and tag with a fresh, unused name.
+Report what went stale and what you changed.
+
+# ============================================================================
+# K) CONTINUITY SWEEP  (full Q-CONT audit on demand)
+# ============================================================================
+Read analysis/facets/PLAN.md, analysis/facets/BOOK_FACTS.md, reference/Scenes.2.md's consistency
+ledger, and the timeline if it exists. Run a full continuity audit of the draft so far: open
+promises past their planned payoff point, plan-vs-text divergences not yet queued, internal
+contradictions in BOOK_FACTS (names, dates, ages, geography), and chronology conflicts.
+Time is relative to T=0 — audit local consistency WITHIN a scene only, and do not raise global
+clock reconciliation against Timeline.1 or the Scenes clock tables. Diacritics are added in a
+final cleanup pass; unaccented spellings are not defects.
+Write renders/Continuity_<date>.md with severities; update the DASHBOARD divergence queue.
+Findings only — no fixes without my direction, and no edits to lyx/ ever.
+
+# ============================================================================
+# C) ASK a question / render a deliverable
+# ============================================================================
+Read analysis/DASHBOARD.md and analysis/QUESTIONS.md, then answer <Q-ID or question in words>.
+If the facets it consumes are READY (or PARTIAL and I say go), render the answer and save any
+deliverable to analysis/renders/<Name>_<date>.md, quoting the manuscript only via the facets'
+anchors. If anything is stale or a GAP, tell me what's missing before answering.
+#
+# Question IDs:  Q-CONT continuity audit        Q-NEG    negative review
+#                Q-COMP comps / placement       Q-STRESS unprepared-reader stress test
+#                Q-DEFEND defense               Q-BLURB  jacket copy
+#                Q-PITCH agent/editor pitch     Q-CHAR   character study
+#                Q-THEME thematic essay
+
+# ============================================================================
+# D) AUTONOMOUS "highest-value next pass"  (optional)
+# ============================================================================
+Read analysis/DASHBOARD.md. Without my naming a task, choose the single highest-value next pass,
+state which and why before beginning, do it, update facets / DASHBOARD / QUESTIONS, commit, and
+end by recommending the next action. (Bootstrap-era candidates: run block E, seed PLAN, seed
+POSITIONING from PLAN, ingest any un-ingested chapter, scaffold the timeline when chronology
+warrants.)
+
+# ============================================================================
+# T / U) TIMELINE  — DORMANT
+# ============================================================================
+# The timeline workbook (analysis/IceCapade_timeline.xlsx) is not scaffolded yet. When the draft
+# has real chronology, ask a chat to scaffold it (define sheets + calendar conventions for THIS
+# book, update the sheet-prefix constants in tools/, record conventions in BOOK_FACTS and spec
+# §2.1). Note the T=0 convention above: the workbook records scene-local times and offsets from
+# T=0, not a reconciled wall clock. From then on, use Critique's T and U blocks with the new
+# workbook name: T = currency-check via timeline_sync.py; U = approval-gated scene extraction via
+# timeline_scaffold.py (draft rows, WAIT for approval, insert, sync, commit xlsx + mirror).

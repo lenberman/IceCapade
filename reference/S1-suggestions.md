@@ -86,28 +86,39 @@ The five in the top block are the ones worth fixing in `Scenes.2.md` before they
 
 ---
 
-## 4. Chapter **Ice**, section **Hawaiʻi**
+## 4. Structure — master, chapter, and the naming scheme
 
-### The names
+### What you've built
 
-**Ice works, and it works better because S1 contains none.** The chapter is called Ice and the reader spends it in a kitchen in Hilo listening to a sixteen-year-old recite a catechism. The title says what the sound was; the scene refuses to show it. That is the book's method in miniature, on the first page, for free.
+`IceCapades.lyx` — `extbook`, Title *Ice Capades*, and a single `\include` of `ice.lyx`. `ice.lyx` — `extbook`, Chapter **Ice**, Section **Hawaiʻi**, with a collapsed Note holding **S1** attached to the section head. `secnumdepth -2` in both, so *Ice* prints as a bare word with no "Chapter 1" above it.
 
-It also sets up a system. Your parts are already THE DAY / THE MUD / THE WEEK / THE LOAD, and *Ice* against *Mud* is the book's real argument — two substances, and the reader learns in Part Two that the second one is the killer. If chapters are substances the scheme extends without strain.
+This is right, and three details of it are better than right.
 
-**Chapters named for a substance, sections named for a place** is a clean division: chapter is *what*, section is *where*. It scales — Ice / Hawaiʻi, Ice / Silver Spring, Ice / Prydz Bay. One thing to decide early: what a found document is titled, since `FourteenDays.md`'s pieces have no place or several. Options are to give them the place of their origin (Cape Leeuwin, Malé, Keamari), or to leave them untitled and let the typography mark them.
+**The Note holding the scene ID** is the correct solution to a problem you would otherwise have hit in Part Four. The scene number is the link back to `Scenes.2.md`, it needs to survive twenty-six scenes and a reorder, and it must never print. A Note on the heading does all three. Recorded in `CLAUDE.md` so other chats look for it.
 
-**Use the ʻokina: Hawaiʻi.** In a book whose household turns on *tūtū* and *kuʻu hiwahiwa*, a section head spelled "Hawaii" is the one place the orthography would visibly lapse, and it is set in large type at the top of a page. Same reasoning will apply to Oʻahu when Part Four gets there.
+**Hawaiʻi with the ʻokina** — U+02BB, verified. It is set in large type at the top of a page, so it is the one place a flat spelling would visibly lapse in a book whose household runs on *tūtū* and *kuʻu hiwahiwa*.
 
-### The LyX problem
+**`\include` rather than `\input`** is the right choice for chapters: it forces the page break chapters want anyway, and it gives you `\includeonly` when the book is long enough that compiling all of it is annoying.
 
-**`extarticle` has no `Chapter` layout.** You currently have `\textclass extarticle` and S1's container marked up as `Section`. To get a real chapter you need a book class — `extbook` is the direct swap and is what the file used to be.
+### One thing to fix now
 
-Two ways:
+**`ice.lyx` has no master set.** Its preamble is currently a byte-for-byte copy of the master's, which is exactly how the drift starts: when you compile through `IceCapades.lyx`, **only the master's preamble is used**, so any change you make to the child's preamble is silently discarded. You will eventually make one and lose an evening to it.
 
-- **Switch to `extbook`.** Chapter = *Ice*, Section = *Hawaiʻi*. Natural, and `papersides 2` is already set for it. This is what I would do.
-- **Stay in `extarticle`.** Use `Part` = *Ice* and `Section` = *Hawaiʻi*. Works, but Part and Chapter set differently and you will fight it later when there are four parts *and* chapters.
+Set it in the child: *Document → Settings → Document Class → Child Document → Master = `IceCapades.lyx`*. That writes a `\master` line into `ice.lyx`, makes previewing the chapter alone use the book's real settings, and ends the two-preamble problem.
 
-Either way `secnumdepth -2` keeps the numbers off, which is what you want for named chapters.
+### The naming scheme, and the two holes in it
+
+**Ice works, and it works better because S1 contains none of it.** The chapter is called Ice and the reader spends it in a kitchen in Hilo listening to a sixteen-year-old recite a catechism. The title says what the sound was; the scene refuses to show it. That is the book's method in miniature, on the first page, for free.
+
+It also scales. Your parts are already THE DAY / THE MUD / THE WEEK / THE LOAD, and *Ice* against *Mud* is the book's real argument — two substances, and the reader learns in Part Two that the second one is the killer.
+
+Chapter is *what*, section is *where*. Two cases the scheme does not yet cover:
+
+**Split scenes.** S3 is a phone call between Hilo and Silver Spring; S17 is the same, and S12 is a fortnight of them. A section head has to say something. Cleanest rule: **name the section for the place the POV body is sitting in** — S3 is Daniel's or hers, and whichever it is, that is the section. If a scene genuinely cuts between both, *Hilo · Silver Spring*. Avoid inventing a third kind of name for these.
+
+**Found documents.** The *Fourteen Days* pieces have no place, or several — a Geoscience Australia note, a hobbyist forum thread, an IERS bulletin. Two workable answers: give each the place of its origin where it has one (*Cape Leeuwin*, *Malé*, *Keamari*) and let the placeless ones go without a head at all, marked only by typography; or head them all with the issuing body. I would take the first — the placeless ones reading as unlocated is a feature, and the reader who has just left *Hawaiʻi* and lands on *Malé* gets the geography of the disaster for free.
+
+**Recurrence.** Hilo comes back at S7, S8, S9 — three sections inside one chapter that all want the same name. That is fine across chapters and awkward within one. If it happens, either let the repetition stand as a drumbeat, or go finer for the repeats: *Hawaiʻi*, then *Hilo Bay*, then *Waiākea*.
 
 ---
 
@@ -157,14 +168,16 @@ Open: whether the return gets its own break. Not another **Bzzzz** — twice in 
 
 **`pdf_keywords` is still "AI, peace, family, greed."** Leftover.
 
-**Textclass `extarticle`** — see §4.
+**No `\master` in `ice.lyx`** — see §4. The one item here I would not leave sitting.
 
 ---
 
 ## 7. Open
 
-1. Fix the five misspelled place names in `Scenes.2.md` — Hawaiʻi, Oʻahu, Nuʻuanu, Molokaʻi, Lānaʻi?
-2. Rewrap `Scenes.2.md` to one line per paragraph throughout?
-3. Gloss policy for Hawaiian — §6.
-4. Does the bedroom-to-table return get its own break?
-5. *loci* or *locii*?
+1. Set the master on `ice.lyx` — §4. Do this one.
+2. Section names for split scenes and found documents — §4.
+3. Fix the five misspelled place names in `Scenes.2.md` — Hawaiʻi, Oʻahu, Nuʻuanu, Molokaʻi, Lānaʻi?
+4. Rewrap `Scenes.2.md` to one line per paragraph throughout?
+5. Gloss policy for Hawaiian — §6.
+6. Does the bedroom-to-table return get its own break?
+7. *loci* or *locii*?

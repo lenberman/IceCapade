@@ -103,7 +103,7 @@
 \index_command default
 \float_placement class
 \float_alignment class
-\paperfontsize 12
+\paperfontsize 14
 \spacing single
 \use_hyperref true
 \pdf_title "Ice Capades"
@@ -144,6 +144,46 @@
 \use_formatted_ref 0
 \use_minted 0
 \use_lineno 0
+\branch Scenes.2
+\selected 0
+\filename_suffix 0
+\color #f66151 #099eae
+\end_branch
+\branch AffairConsummated
+\selected 0
+\filename_suffix 0
+\color #008000 #663e0e
+\end_branch
+\branch MarriageBreaks
+\selected 0
+\filename_suffix 0
+\color #e69db4 #19624b
+\end_branch
+\branch DanielAtFuneral
+\selected 0
+\filename_suffix 0
+\color #0b6cda #f49325
+\end_branch
+\branch HilinaFires
+\selected 0
+\filename_suffix 0
+\color #c72512 #38daed
+\end_branch
+\branch Plan
+\selected 0
+\filename_suffix 0
+\color #9141ac #6ebe53
+\end_branch
+\branch Draft
+\selected 0
+\filename_suffix 0
+\color #ff7800 #0087ff
+\end_branch
+\branch Query
+\selected 0
+\filename_suffix 0
+\color #e69db4 #19624b
+\end_branch
 \index Index
 \shortcut idx
 \color #008000
@@ -428,8 +468,6 @@
 \spellchecker_ignore english backed-up
 \spellchecker_ignore english curve-ball
 \spellchecker_ignore english shoebox
-\leftmargin 1.33in
-\rightmargin 1.33in
 \secnumdepth -2
 \tocdepth 3
 \paragraph_separation indent

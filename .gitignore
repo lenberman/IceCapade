@@ -5,6 +5,7 @@ RECONCILIATION_WORKLIST.md
 *.linecache
 line_cache/
 manifest/*.json
+*#
 
 # --- OS / editor / Dropbox cruft ---
 .DS_Store

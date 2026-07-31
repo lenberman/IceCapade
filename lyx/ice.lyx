@@ -75,6 +75,7 @@
 \clubpenalty=10000
 \end_preamble
 \use_default_options false
+\master IceCapades.lyx
 \maintain_unincluded_children no
 \language american
 \language_package none
@@ -103,7 +104,7 @@
 \index_command default
 \float_placement class
 \float_alignment class
-\paperfontsize 12
+\paperfontsize 14
 \spacing single
 \use_hyperref true
 \pdf_author "Leonard Berman"
@@ -179,7 +180,7 @@ Ice
 \end_layout
 
 \begin_layout Section
-Hawaiʻi
+Waiākea
 \begin_inset Note Note
 status collapsed
 
@@ -190,6 +191,10 @@ S1
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+2031-05-14T17:20:00-10:00
 \end_layout
 
 \begin_layout Standard
@@ -414,7 +419,7 @@ The bay empties and then,
 \begin_layout Standard
 She looked at Tutu,
  "And in nineteen forty-six,
- when Tūtū was eleven,
+ when Tūtū was six,
  the waters left and no one knew what it meant.
  She walked with her father to look at the reef.
  She saw the bottom of the bay,
@@ -435,7 +440,11 @@ As she hesitated,
 And I spoke of nineteen sixty as well.
  We knew by then,
  and still,
- sixty died and the family store was destroyed." Tūtū looked at me.
+ sixty died and the family store was destroyed.
+\begin_inset Quotes qrd
+\end_inset
+
+ Tūtū looked at me.
  "I spoke of the streets gone forever."
 \end_layout
 
@@ -608,7 +617,7 @@ Oscar repainted the window.
 
 \family typewriter
 \series bold
-Display possible source locii
+Display possible source loci
 \end_layout
 
 \begin_layout Standard
@@ -648,6 +657,7 @@ Oscar responded,
 \begin_layout Standard
 Antarctic telemetry drops.
  It drops for weather and it drops for satellite windows.
+ Suspicious not conclusive.
 \end_layout
 
 \begin_layout Standard
@@ -682,6 +692,371 @@ Tutu turned and watched me emerge.
 \begin_layout Standard
 She looked at me a while longer and turned back to the window,
  where there was nothing new to see.
+\end_layout
+
+\begin_layout Section
+Silver Spring
+\end_layout
+
+\begin_layout Subsection
+2031-05-15T07:00:00-04:00
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Plan
+inverted 0
+status collapsed
+
+\begin_layout Standard
+S2 · D0,
+ 7:00 am EDT · Silver Spring · Daniel.
+ Breakfast:
+ the Corolla cottage —
+ repair estimate,
+ flood insurance non-renewal,
+ her refusal to sell,
+ his refusal to say what he thinks.
+ Two people who like each other disagreeing about money.
+ Maya eats standing up because it is faster,
+ not because there is anything to stay out of range of.
+ On her way out Ellen mentions a directorship that is opening —
+ lightly,
+ the fourth time in ten years —
+ and he says he'll look at it,
+ and they both know he won't,
+ and she kisses him anyway.
+\end_layout
+
+\begin_layout Standard
+Then the office,
+ where four notices from four agencies sit in his queue and the desk consensus assembles itself:
+ floating ice,
+ Larsen B precedent,
+ displaces its own weight,
+ no seismic source,
+ no wave.
+ Every sentence true.
+ He concurs.
+\end_layout
+
+\begin_layout Standard
+Function:
+ plant the D+8 payoff;
+ put Daniel on the record agreeing with the reasoning that becomes Bulletin 003.
+ His error is not negligence,
+ and his marriage is not a wound.
+ Both of those are the point.
+\end_layout
+
+\begin_layout Standard
+Ledger:
+ #3 Daniel never gets wet.
+ #4 the cottage survives D1 and dies D+8;
+ nothing between may damage it.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Daniel saw the facts,
+ printed and stacked neatly,
+ near his end of the counter,
+ when he entered the kitchen.
+ His end of the counter.
+ Imagine,
+ he thought.
+ He remembered when they relocated to the counter from the table —
+ Eve had stopped sitting with them.
+ It was her senior year of high school and she preferred proximity to the toaster to her parents.
+ He was saddened but he understood.
+ 
+\end_layout
+
+\begin_layout Standard
+He looked through the papers.
+ It was the cottage again.
+ Expensive,
+ her family cottage,
+ but,
+ he admitted,
+ a joy.
+ She made plenty.
+ We'd ignored the cottage for years and now payment was due.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Hello,
+ my dear,
+\begin_inset Quotes qrd
+\end_inset
+
+ he said,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Did you sleep well?
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Remaining at her end;
+ beyond Eve's spot,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+I was up all night thinking about what needs to be done.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+And what is that?
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+It's all there in the papers,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+I know you've been through it.
+ Tell me.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ellen looked at him,
+ placed her coffee on the counter,
+ and was about to speak when Eve burst into the room.
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Good morning Mater and Pater,
+\begin_inset Quotes qrd
+\end_inset
+
+ she said,
+ grabbing a bagel from the toaster,
+ and retreating to a chair at the empty table,
+ face-down into her tablet.
+\end_layout
+
+\begin_layout Standard
+Ellen ignored her and proceeded,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+You've seen most of this before.
+ We have a lot of deferred maintenance that's catching up to us.
+ Almost a hundred K.
+ What's knew is this.
+\begin_inset Quotes qrd
+\end_inset
+
+ She pulled a letter from the bottom of the pile.
+ 
+\begin_inset Quotes qld
+\end_inset
+
+This is from Sound Atlantic,
+ they're dropping us,
+ September one.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+They're very nice about it,
+ it's not because of claims but because of,
+ and I quote,
+ 
+\emph on
+a portfolio-level reassessment of coastal exposure
+\emph default
+
+\begin_inset Quotes qrd
+\end_inset
+
+.
+ He smiled and said nothing,
+ and she continued,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+The Feds will take us,
+ but unless we elevate the structure,
+ our insurance goes up almost four times.
+ Elevating is almost another hundred.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+How much is it worth?
+\begin_inset Quotes qrd
+\end_inset
+
+ Eve broke in.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Its been in your family for 5 generations.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+I think Eve's is a reasonable question.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Well,
+ no matter what,
+ we have to do the deferred maintenance.
+\begin_inset Quotes qrd
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+I agree on the maintenance.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Good.
+ And Daniel,
+ my contact at American Life says they're looking for a high level climate analyst.
+ Sounded right for you to me.
+ Shall I send you a link to the posting?
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Sure.
+\begin_inset Quotes qrd
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+I'm of to my seven-thirty.
+ Consider it honey,
+ we could use the money.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Draft
+inverted 0
+status open
+
+\begin_layout Standard
+Then the office,
+ where four notices from four agencies sit in his queue
+\end_layout
+
+\begin_layout Standard
+and the desk consensus assembles itself:
+ floating ice,
+ Larsen B
+\end_layout
+
+\begin_layout Standard
+precedent,
+ displaces its own weight,
+ no seismic source,
+ no wave.
+\end_layout
+
+\begin_layout Standard
+Every sentence true.
+ He concurs.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
