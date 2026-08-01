@@ -718,7 +718,7 @@ S2
 \begin_layout Standard
 \begin_inset Branch Plan
 inverted 0
-status collapsed
+status open
 
 \begin_layout Standard
 S2 · D0,
@@ -885,7 +885,7 @@ Good morning Mater and Pater,
  she said,
  grabbing a bagel from the toaster,
  and retreating to a chair at the empty table,
- face-down into her tablet.
+ face buried in her tablet.
 \end_layout
 
 \begin_layout Standard
@@ -897,7 +897,7 @@ Ellen ignored her and proceeded,
 You've seen most of this before.
  We have a lot of deferred maintenance that's catching up to us.
  Almost a hundred K.
- What's knew is this.
+ What's new is this.
 \begin_inset Quotes qrd
 \end_inset
 
@@ -958,7 +958,7 @@ How much is it worth?
 \begin_inset Quotes qld
 \end_inset
 
-Its been in your family for 5 generations.
+It's been in your family for 5 generations.
 \begin_inset Quotes qrd
 \end_inset
 
@@ -1006,7 +1006,7 @@ I agree on the maintenance.
 
 Good.
  And Daniel,
- my contact at American Life says they're looking for a high level climate analyst.
+ my contact at American Life says they're looking for a high-level climate analyst.
  Sounded right for you to me.
  Shall I send you a link to the posting?
 \begin_inset Quotes qrd
@@ -1030,8 +1030,9 @@ Sure.
 \begin_inset Quotes qld
 \end_inset
 
-I'm of to my seven-thirty.
- Consider it honey,
+I'm off to my seven-thirty.
+ Consider it,
+ honey,
  we could use the money.
 \begin_inset Quotes qrd
 \end_inset
@@ -1046,11 +1047,11 @@ As the door closed,
 \begin_inset Quotes qld
 \end_inset
 
-Hi Dad.
+Hi Dad,
 \begin_inset Quotes qrd
 \end_inset
 
- She said putting her arm around him.
+ she said putting her arm around him.
  They hugged.
  
 \begin_inset Quotes qld
@@ -1071,7 +1072,7 @@ Daniel sat,
 \end_layout
 
 \begin_layout Subsection
-T08:30:00-04:00
+08:30:00-04:00
 \end_layout
 
 \begin_layout Standard
@@ -1097,7 +1098,7 @@ status collapsed
 
 \begin_layout Standard
 He was fond of his paper calendar.
- When his colleagues called him old fashioned,
+ When his colleagues called him old-fashioned,
  he always replied with a smile,
  
 \begin_inset Quotes qld
@@ -1113,7 +1114,7 @@ No e-bikes,
 \end_layout
 
 \begin_layout Standard
-The government required two factor authentication and an eight character password that changed every thirty days.
+The government required two-factor authentication and an eight-character password that changed every thirty days.
  Some days,
  this drove him crazy but today,
  he had his security fob in his pocket and the current password written on the back of a business card.
@@ -1122,15 +1123,14 @@ The government required two factor authentication and an eight character passwor
 
 \end_inset
 
- He grabbed a coffee from the department snack-room and sat down to start his workstation and begin his day.
+ He grabbed a coffee from the department break room and sat down to start his workstation and begin his day.
  
 \end_layout
 
 \begin_layout Standard
 He brought up his AI assistant,
  a government issue LLM named Edgar,
- guaranteed secure.
- He typed,
+ guaranteed secure and he typed,
 \end_layout
 
 \begin_layout Standard
@@ -1144,16 +1144,16 @@ Top priority items.
 
 \series bold
 1.
- IMS HA01 Cape Leeuwin ::
- 0412Z
+ IMS HA01 CAPE LEEUWIN ::
+ 04:12Z
 \end_layout
 
 \begin_layout Analyst
 
 \series bold
 2.
- IMS HA04 Crozet ::
- 1051Z
+ IMS HA04 CROZET::
+ 10:51Z
 \end_layout
 
 \begin_layout Standard
@@ -1164,167 +1164,253 @@ Expand 1.
 \end_layout
 
 \begin_layout Analyst
-Cape Leeuwin posted at 2031-05-15T04:12:07Z.
+Cape Leeuwin (HA01) posted at 2031-05-15T04:12:07Z.
  
 \end_layout
 
 \begin_layout Analyst
 Broadband arrival,
  11Hz to 4Hz,
- 240 sec;
+ 340 sec;
 \end_layout
 
 \begin_layout Analyst
-back-azimuth 189,
- origin Prydz Bay at 
+Back-azimuth 189°,
+ origin Prydz Bay at 2031-05-15T03:20:07Z
+\end_layout
+
+\begin_layout Analyst
+Largest instrument amplltude.
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Expand 2.
+\end_layout
+
+\begin_layout Analyst
+Crozet (HA04) posted at 2031-05-15T10:51Z.
+ 
+\end_layout
+
+\begin_layout Analyst
+Broadband arrival,
+ 11Hz to 4Hz,
+ 340 sec;
+\end_layout
+
+\begin_layout Analyst
+Back-azimuth 209°,
+ origin Weddell at 2031-05-15T10:05:00Z
+\end_layout
+
+\begin_layout Analyst
+query to Cape Leeuwin:
+ Is your 0412 event ongoing?
+ No response.
+\end_layout
+
+\begin_layout Standard
+Odd,
+ he thought,
+ two events,
+ six hours apart,
+ close to one another.
+ He forwarded the notes to Number2,
+ his chief scientific officer,
+ with subject:
+ Could they be one?
+ Then he typed,
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Secondary items.
+\begin_inset Newpage nopagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Analyst
+The IOTWMS
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Indian Ocean Tsunami Warning and Mitigation System
+\end_layout
+
+\end_inset
+
+ processed and cancelled a warning based on event HA01::2031-05-15T04:12Z
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Continue monitoring priority events.
+\end_layout
+
+\begin_layout Analyst
+Done.
+\end_layout
+
+\begin_layout Standard
+Daniel minimized Edgar's window and began his email.
+ Each day,
+ he wondered about letting Edgar handle more of this task.
+ Currently,
+ it prioritized his emails,
+ but he answered them himself.
+ He was old enough to feel and resent the encroachment of AI on humanity.
+ Some staffers let Edgar respond to emails.
+\end_layout
+
+\begin_layout Standard
+Midway through the second email,
+ he heard a commotion at the door and swiveled to find Number2 in his doorway and a wall of department members blocking the horizon.
+ Number2 began,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+They're distinct events.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Daniel responded,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Two ice shelves crack so close in time.
+ Seems odd.
+ One was enormous.
+ Could be related,
+ don't you think?
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Number2 came back,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Of course,
+ they could be related,
+ but there's no known mechanism.
+ In any event it's an shelf ice.
+ No change to sea level,
+ no waves.
+\begin_inset Quotes qrd
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+A lively discussion ensued,
+ various mechanisms were proposed and disposed of.
+ The most common questions concerned seismic activity or vulcanism:
+ there was none.
+ There were some interesting questions about the effect on sheet flow and stability.
+\end_layout
+
+\begin_layout Standard
+And then,
+ just after eleven forty-five,
+ beepers started going off in the hallway,
+ and Daniel's and Number2's joined the party.
+ Of course,
+ it was a priority event.
+ Something that might not happen once in a year,
+ happening three times in a day.
+\end_layout
+
+\begin_layout Standard
+Daniel realized and turned back to restore Edgar's window.
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Top priority items.
+\end_layout
+
+\begin_layout Analyst
+
+\series bold
+1.
+ IMS HA03 JUAN FERNÁNDEZ ::
+ T15:44Z
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Expand.
+\end_layout
+
+\begin_layout Analyst
+Juan Fernández posted at 2031-05-15T15:44Z.
+ 
+\end_layout
+
+\begin_layout Analyst
+Broadband arrival,
+ 11Hz to 4Hz,
+ 350 seconds
+\end_layout
+
+\begin_layout Analyst
+Back-azimuth 196°.
+ origin Amundsen Sea Embayment,
+ 2031-05-15T14:50Z.
+\end_layout
+
+\begin_layout Standard
+Number2 was right behind Daniel's chair and a few others had entered his office.
+ Daniel swiveled again,
+ looked at Number2 and said,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+We've got a mystery.
+ Let's solve it.
+\begin_inset Quotes qrd
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Number2 sat and motioned his current Knauss fellow to a chair.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Branch Draft
 inverted 0
 status open
 
 \begin_layout Standard
-Two were waiting when he sat down,
- both forwarded from Ford Island,
- which was one of the small daily reminders that the place he had been useful in was still running without him.
-\end_layout
 
-\begin_layout Standard
-Cape Leeuwin had posted at ten past midnight.
- Broadband arrival,
- eleven hertz down to four across most of six minutes,
- back-azimuth 189,
- origin Prydz Bay at about twenty past three Greenwich.
- Largest amplitude on that instrument's record.
-\end_layout
-
-\begin_layout Standard
-Crozet had posted at ten to seven,
- while he was standing at his end of the counter listening to what a roof cost.
- Second arrival,
- comparable character,
- back-azimuth 214.
- The solution did not match Cape Leeuwin's.
- It put the source in the Weddell.
-\end_layout
-
-\begin_layout Standard
-There was a query appended to the Crozet notice,
- addressed to Cape Leeuwin.
- *Is your 0412 event ongoing?*
-\end_layout
-
-\begin_layout Standard
-Nobody had answered it.
-\end_layout
-
-\begin_layout Standard
-By nine there were six people in his doorway and nobody had asked any of them to come.
-\end_layout
-
-\begin_layout Standard
-"They're not one event."
-\end_layout
-
-\begin_layout Standard
-"Eight hours and forty degrees apart.
- They're two."
-\end_layout
-
-\begin_layout Standard
-"Then it's two shelves."
-\end_layout
-
-\begin_layout Standard
-"It's shelf ice either way."
-\end_layout
-
-\begin_layout Standard
-Nobody argued with that,
- because it was not arguable.
- Ice that floats displaces its own weight.
- It had been floating yesterday and it was floating this morning,
- in pieces,
- and the ocean could not tell the difference.
- Larsen B had put three thousand two hundred and fifty square kilometres into the Weddell and the tide gauges had not noticed.
-\end_layout
-
-\begin_layout Standard
-"Seismic?"
-\end_layout
-
-\begin_layout Standard
-"Nothing.
- No rupture,
- no origin,
- nothing to evaluate."
-\end_layout
-
-\begin_layout Standard
-"Then there's no wave."
-\end_layout
-
-\begin_layout Standard
-Somebody at the back asked what happened to the grounded ice behind the shelves.
- Daniel could not afterward remember who it was,
- and that it mattered to him later that he could not remember was,
- he thought,
- the measure of the morning.
-\end_layout
-
-\begin_layout Standard
-"Grounded ice moves at the speed of ice."
-\end_layout
-
-\begin_layout Standard
-Which was also correct.
-\end_layout
-
-\begin_layout Standard
-Juan Fernández came in at a quarter to twelve.
- A third arrival,
- a third ocean —
- the Amundsen embayment,
- about ten to three Greenwich.
- At twenty past,
- the Pacific centre put out an information statement:
- sea level disturbance recorded at Scott Base and at three DART buoys in the Ross sector,
- no seismic origin,
- under evaluation.
-\end_layout
-
-\begin_layout Standard
-Four notices.
- Four agencies.
- Four oceans.
- Nothing in any of them referred to anything in any of the others.
-\end_layout
-
-\begin_layout Standard
-The room did not change its mind,
- and the reason it did not was that no part of the argument had ever depended on how many.
-\end_layout
-
-\begin_layout Standard
-Every sentence was true.
- He had taught two of them himself,
- to duty scientists half his age,
- on a shift floor,
- at three in the morning.
-\end_layout
-
-\begin_layout Standard
-The cancellation wanted a US concurrence.
- It came to him because the form had a box for the deputy director and he was the deputy director.
-\end_layout
-
-\begin_layout Standard
-He read it once more.
- Floating ice.
- No source.
- No wave.
-\end_layout
-
-\begin_layout Standard
-He concurred.
 \end_layout
 
 \end_inset
