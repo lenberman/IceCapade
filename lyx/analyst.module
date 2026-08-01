@@ -4,13 +4,24 @@
 #DescriptionEnd
 Format 104
 Preamble
+	% ---- tuning ---------------------------------------------------
+	% \fontsize{TYPE}{LEADING}\selectfont -- both in points. Body is 12pt.
+	% Try 10/11.5 (tight), 10/12 (normal), 9.5/11 (tighter).
+	\newcommand{\analystfont}{\fontsize{10}{11.5}\selectfont}
+	% Gap between each rule and the text. One knob, used at both ends.
+	\newcommand{\analystgap}{3pt}
+	% ---------------------------------------------------------------
 	\newenvironment{analyst}%
 	  {\par\addvspace{\medskipamount}%
-	   \noindent\rule{\linewidth}{0.4pt}\par\nobreak\vspace{2pt}%
-	   \begingroup\sffamily\small\setlength{\parindent}{0pt}%
-	   \leftskip=1.5em \rightskip=1.5em}%
-	  {\par\endgroup\vspace{2pt}%
-	   \noindent\rule{\linewidth}{0.4pt}\par\addvspace{\medskipamount}}
+	   \hrule height 0.4pt\relax
+	   \begingroup\sffamily\analystfont%
+	   \setlength{\parindent}{0pt}%
+	   \setlength{\parskip}{2pt}%
+	   \leftskip=1.5em \rightskip=1.5em
+	   \vspace{\analystgap}}%
+	  {\par\vspace{\dimexpr\analystgap+\parskip\relax}%
+	   \hrule height 0.4pt\relax
+	   \endgroup\addvspace{\medskipamount}}
 	\newcommand{\analystfrom}[1]{{\scshape\footnotesize #1}\par\vspace{2pt}}
 EndPreamble
 Style Analyst

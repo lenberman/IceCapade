@@ -81,7 +81,9 @@ S1's 17:20 is the instant the Amery front lets go, which is also roughly when sh
 
 S1 reads 05-14 and S2 reads 05-15, so the date advances — but only **7 hours 40 minutes** of story passes between them. A reader may infer a day where there is a third of one. This bites hardest at exactly these two heads, because they are the reader's first two.
 
-Three ways to handle it, and I would keep what you have:
+**Decided: local-with-offset, uniformly, for every scene and both POVs.** Daniel and Edgar work in UTC (Scenes ledger #37), but that habit lives inside his narration and Edgar's output — it does not reach the scene heads. The apparatus stays one thing.
+
+The three options, kept for the record:
 
 - **Local + offset (current).** The reader gets each character's own clock and has to do the subtraction. The book is *about* a planet whose local clocks disagree — Part One's engine is four sectors failing on one UTC day that is four different local days — so making the reader feel that in the heads is the right kind of work. Oscar's screen supplies Z whenever precision actually matters.
 - **UTC throughout.** `2031-05-15T03:20:00Z`, `2031-05-15T11:00:00Z`. Elapsed time becomes trivial; the local evening goes cold.

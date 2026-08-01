@@ -1164,11 +1164,19 @@ Expand 1.
 \end_layout
 
 \begin_layout Analyst
-Cape Leeuwin posted at 2031-05-14T0412Z.
- Broadband arrival:
+Cape Leeuwin posted at 2031-05-15T04:12:07Z.
+ 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Analyst
+Broadband arrival,
+ 11Hz to 4Hz,
+ 240 sec;
+\end_layout
+
+\begin_layout Analyst
+back-azimuth 189,
+ origin Prydz Bay at 
 \begin_inset Branch Draft
 inverted 0
 status open
