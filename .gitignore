@@ -12,6 +12,7 @@ manifest/*.json
 *~
 *.swp
 *conflicted copy*
+*suggest*
 .dropbox
 .dropbox.attr
 

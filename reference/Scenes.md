@@ -117,7 +117,23 @@ One household will lose a harbour and keep everything else. The other will lose 
 
 ---
 
-## Daniel and Nālani
+## Daniel and Nālani — REVISED, and this supersedes the Cast entry and Ledger #6
+
+**1. He was enchanted by her at Scripps.** Four years as a postdoc across her doctorate, in the same building, and he knew Tomás. **Whether she ever knew is open and should probably stay open** — including to Daniel, who has had twenty years to decide what it was and has not.
+
+**2. He tried to fund her, and lost.** This reverses the old version completely. He did not write *insufficient institutional leverage*; **he argued against it.** His boss at the time killed the proposal on the ground that Hilo was the wrong institution. So the review that ended her chance at an array carries his agency's name and not his opinion.
+
+Which leaves a much better wound than the old one. She may have spent nine years believing he sank her. He may have spent nine years knowing he did not, and never saying so — because saying it would mean telling a woman he was once enchanted by that he fought for her and lost, which is worse than silence and sounds like a bid. **Neither of them has raised it, and the phone call in S3 happens on top of it.**
+
+It also converts his defining trait from cowardice into something more painful: he *did* speak up once, on the one occasion it mattered, and was overruled, and the lesson he took from it was the wrong one.
+
+**3. He is probably fired after Currituck.** Not the slow defunding the old spine had at S20 — dismissal, in the weeks after D+8. What he does then is undecided.
+
+**Consequences left deliberately unresolved:** whether she knows, when she finds out, and whether he ever tells her. Ledger #6's "Daniel on the panel" is void as written.
+
+---
+
+## The triangle, as it now stands
 
 The old spine argued that a good marriage made the pull between them harder and better. That argument is void.
 
@@ -293,7 +309,9 @@ Numbering preserved from `Scenes.2.md` so existing references still resolve.
 3. **Daniel never gets wet.** Dry feet, wet conscience, extended through Part Four. No scene may put him in floodwater.
 4. The cottage survives D1 (S11) and dies D+8 (S15). Nothing between may damage it.
 5. Sea level at D+12 is centimetres. Metres belong to Part Four.
-6. **Nālani's proposal history:** declined nine years pre-Day 0 (she is 35), Daniel on the panel, Tomás alive for it.
+6. **Nālani's proposal history — REVISED.** Declined nine years pre-Day 0 (she is 35), Tomás alive for it. **Daniel argued to fund her and was overruled by his own boss, on the ground that Hilo was the wrong institution.** He did not write the review. Whether she knows this is open; whether he ever tells her is open. The old "Daniel on the panel, a betrayal between friends" is void.
+6a. **He was enchanted by her at Scripps.** Whether she knew is open, and so is what he thinks it was.
+6b. **He is fired after Currituck**, in the weeks following D+8. What he does next is undecided. This replaces the S20 defunding as the mechanism that ends his career.
 7. **The one sheet (S7 → S21):** predicted 6.6 / 7.5 / 4.6 h; observed 6.75 / 6.4 / 5.0. Time-stamped by the send before the second fan fails.
 8. **Nālani's chronology.** Harvard 18–22; Scripps 22–29; married ~24; children ~25 and ~28; declined SOEST and PMEL at 29, married, Tomás alive, joint; Hilo from 29; array proposal declined at 35; **widowed at 38**. Nothing may imply she came home because she was widowed.
 9. **Daniel's chronology.** PhD ~29; Scripps postdoc 29–33; married Ellen ~32; PTWC 34–40, Eve born there ~35; Silver Spring 40–51.
