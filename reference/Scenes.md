@@ -54,6 +54,31 @@ Daniel, close third, past tense, with free-indirect intrusions (*Imagine, he tho
 - Numbers: deferred maintenance **almost a hundred K**; Sound Atlantic dropping them **September 1**, *a portfolio-level reassessment of coastal exposure*, not claims; the federal program takes them at nearly four times unless they elevate, and elevating is **almost another hundred**.
 - Eve asks **"How much is it worth?"** Daniel answers her question with *"It's been in your family for 5 generations"* and then **takes her side**: *"I think Eve's is a reasonable question."* Ellen refuses it: *"Well, no matter what, we have to do the deferred maintenance."*
 - Ellen's contact at **American Life** wants a high-level climate analyst. *"Shall I send you a link to the posting?"* — **"Sure."**
+- After Ellen leaves, **Eve comes to him, puts an arm around him, and they hug.** *"Gotta run. Love you."* He sits smiling and watching as she goes. The marriage is cold; this is not.
+
+### S2, second Subsection · `08:30:00-04:00` — the office, WRITTEN
+
+The whole office beat is now on the page and it is not the beat either the old spine or `S2-suggestions.md` described. What follows is what `ice.lyx` says.
+
+- **He bikes to work** and showers at the NOAA Fitness Center. *The center was a bright spot. He could bike to work and be presentable at nine.* On the way he thinks about Eve, soon off to college, and about Ellen.
+- **A paper calendar graces his desk** and he checks it before anything else. *Nothing until later.* (The *"No e-bikes, no e-calendars"* line and the 2FA/password material sit inside the deactivated **`Scenes.2`** branch — they are candidate text, not established.)
+- **Edgar** answers in the **Analyst** style. Daniel types **`Top priority items.`**, **`Expand 1.`**, **`Expand 2.`**, **`Secondary items.`**, **`Continue monitoring priority events.`**
+- The notices as the manuscript fixes them: **HA01 Cape Leeuwin 04:12:07Z**, 11→4 Hz, 340 s, **back-azimuth 189°**, origin Prydz Bay **03:20:07Z**, largest instrument amplitude. **HA04 Crozet 10:51Z**, **back-azimuth 209°**, origin Weddell **10:05:00Z**, with *query to Cape Leeuwin: Is your 0412 event ongoing? No response.*
+- **The IOTWMS cancellation is a secondary item.** *The IOTWMS processed and canceled a warning based on event HA01::2031-05-15T04:12Z*, with a footnote expanding the acronym. **Daniel takes no action on it and the scene does not pause.** There is no US concurrence anywhere in the manuscript.
+- *Odd, he thought, two events, six hours apart.* He forwards to **Number2**, his chief scientific officer, subject **Could they be one?**
+- **He resents the encroachment of AI on humanity.** Edgar prioritises his mail; he answers it himself. *Some staffers let Edgar respond to emails.*
+- **Number2 arrives in the doorway with a wall of department members behind him** — *"They're distinct events."* Daniel pushes back: *"Two ice shelves crack so close in time. Seems odd. One was enormous. Could be related, don't you think?"* Number2: *"Of course, they could be related, but there's no known mechanism. In any event they're ice shelves. No change to sea level, no waves."* Mechanisms are proposed and disposed of; the common questions are seismicity and vulcanism, and there is none; there are interesting questions about sheet flow and stability.
+- **Just after 11:45 the beepers go**: HA03 Juan Fernández 15:44Z, 11→4 Hz, 350 s, back-azimuth 196°, origin Amundsen 14:50Z. Daniel: *"We've got a mystery. Let's solve it, but let's not drop the ball on our usual business."*
+- **Ché**, Number2's Knauss fellow, joins. Ice is not his field and Number2 gives him an overview. Daniel — *whose job description included interacting with Knauss fellows* — proposes lunch.
+- Daniel and Number2 turn to next year's staffing and funding, and are interrupted. **PTWC 16:22Z: sea-level disturbance at Scott Base and Ross-sector DART buoys.** They look at one another. *"Let's have lunch," and they did.*
+
+### Three things the office beat does that no plan had
+
+**There is no concurrence and the scene is better for it.** The old function — put Daniel on the record agreeing with the reasoning that becomes Bulletin 003 — is not what happens. The cancellation goes past him as a line item, already done, and he does not stop. **That is worse than agreeing to it**, because agreeing requires reading.
+
+**He is the one who is right, and the room talks him out of it.** *Could they be related, don't you think?* is the correct question, asked first, by him, unprompted. Number2 answers it correctly and irrelevantly. Daniel's failure is not that he missed the connection; he found it, and then accepted a true answer to it.
+
+**The rhyme is not "sure" and "he concurred."** It is *"Sure."* in the kitchen, then *"let's not drop the ball on our usual business,"* then *"Let's have lunch," and they did.* Not agreement with bad reasoning — correct proportion, applied to a day that is not proportionate. Ledger #35 amended.
 
 ### Two things the manuscript now does that the spine did not
 
@@ -85,6 +110,8 @@ Six years as a PTWC duty scientist in his thirties: the 24/7 rotation, the seism
 
 Competent, careful, institutionally fluent, and aware that fluency is what he traded ambition for. **He agrees with things.** That is the character, and S2 establishes it in a kitchen before the book charges him for it. Whether he went to Tomás's funeral is open — Dial 8.
 
+**From the manuscript's office beat, and now fact.** He **bikes to work** and showers at the NOAA Fitness Center so he can be presentable by nine — the one part of the day he chose. He keeps a **paper calendar** on the desk and checks it first. He **resents the encroachment of AI on humanity** and answers his own mail while Edgar merely sorts it, which sets him against Nālani exactly: she built her machine and drives it, he was issued his and holds it at arm's length, and hers is the one that has been useful. He asks the right question first and lets a correct answer close it.
+
 **Ellen Grier**, 49. Health-policy lobbyist, K Street. Married Daniel at the end of the Scripps years, when he still looked like a scientist with a future. **She makes plenty.** The cottage on the Currituck Banks is hers, five generations of it.
 
 **The marriage is cold** — see ESTABLISHED. Not hostile, not cruel, and there is no affair and no crisis. They are courteous, they are at opposite ends of the counter, and she does not answer when he asks how she slept. She still finds him jobs. He still says *sure*. Her grievance was always his lack of ambition; what the manuscript adds is that the grievance has finished arguing and become the weather.
@@ -100,6 +127,10 @@ Competent, careful, institutionally fluent, and aware that fluency is what he tr
 **Oscar.** Nālani's LLM assistant. **"It," never "he."** She named it and has no illusions about it; the book has exactly one machine with a masculine pronoun and that is Tomás's model code. **Typed, never spoken.** Instrument, never oracle: it fetches, computes and reports, and never interprets. It must never notice anything before a human does, and it does not run Tomás's model.
 
 **Edgar.** Daniel's assistant — institutional where Oscar is personal. Set on the page in the **Analyst** style: sans, small, indented, ruled above and below, against Oscar's typewriter. Both men type to their machines in the same monospaced bold; the difference the book states is not how they are addressed but what talks back. **Daniel and Edgar work in UTC** — see Ledger #37.
+
+**"Number2"** — Daniel's **chief scientific officer**, in the manuscript from S2's office beat and **still carrying a placeholder name, which he needs before S3 or S4 can be drafted.** He is the desk consensus in one body: *"Of course, they could be related, but there's no known mechanism. In any event they're ice shelves. No change to sea level, no waves."* Correct in every clause. He is **below** Daniel, not above — he is not the SES boss who owns *premature*, and the book now has both. He is also the man Daniel sits opposite at lunch on D0 and says nothing to, and he is the obvious candidate for the colleague `S2-suggestions.md` §2b needs. Note he keeps a Knauss fellow, so he runs the science side of the programme rather than a desk.
+
+**Ché**, Knauss fellow, Number2's. Ice is not his field and he gets the overview in S2. Six weeks in, present for the third and fourth notices, brings his lunch to a closed-door meeting when told to. **A witness with no stake**, which makes him useful in Part Four if the book ever wants Day 0 described by someone who was in the room and had no reason to lie about it.
 
 **Supporting:** **Kawika Pang**, Hilo civil defense, who trusts Nālani because she has shown up for eleven straight years; Daniel's boss, an SES careerist who owns the word "premature."
 
@@ -163,20 +194,38 @@ Open: what voice the S26 coda takes, since it belongs to Lehua.
 
 Full calendar, zone table and transit arithmetic in **`Calendar.md`**. Day 0 is Thursday 15 May 2031 UTC. Times are relative to T=0; audit within a scene only.
 
-| UTC | Event | Hilo | US East |
-|---|---|---|---|
-| D0 03:20 | Amery/Prydz shelf fails | 17:20 (D−1) | 23:20 (D−1) |
-| D0 04:12:07 | HA01 Cape Leeuwin detection | 18:12 (D−1) | 00:12 |
-| D0 09:40 | Bulletin 003 cancels | | 05:40 |
-| D0 10:05 | Weddell sector fails | | 06:05 |
-| D0 ~15:00–16:30 | Amundsen, then Ross | morning | midday |
-| D0 ~14:00–19:00 | Prydz fan; Indian Ocean wave | | afternoon |
-| D1 ~03:00 | Ross fan | 17:00 (D0) | 23:00 (D0) |
-| D1 ~12:40 | **Hilo arrival** | **~02:40** | 08:40 |
-| D1 ~17:00 | **Crary wave, US East Coast** | | **~13:00** |
-| D+3 | Norway | | |
-| D+8 | **Currituck slide · USNA graduation** | | **failure ~14:00, Corolla ~15:04, Norfolk ~16:16** |
-| D+12 | The hinge | | |
+Rows marked **M** are fixed by `lyx/ice.lyx` and govern. The rest are proposal.
+
+| UTC | Event | Hilo | US East | |
+|---|---|---|---|---|
+| D0 03:20:07 | Amery/Prydz shelf fails | 17:20 (D−1) | 23:20 (D−1) | **M** |
+| D0 04:12:07 | HA01 Cape Leeuwin posts | 18:12 (D−1) | 00:12 | **M** |
+| D0 09:40 | Bulletin 003 cancels | 23:40 (D−1) | 05:40 | |
+| D0 10:05:00 | Weddell sector fails | 00:05 | 06:05 | **M** |
+| D0 10:51 | HA04 Crozet posts | 00:51 | 06:51 | **M** |
+| D0 ~11:00 | Oscar buzzes; **she reads it and sleeps** | ~01:10 | ~07:10 | |
+| D0 15:00 | **Nālani at the machine. S3a opens.** | **05:00** | 11:00 | |
+| D0 14:50:00 | Amundsen sector fails | 04:50 | 10:50 | **M** |
+| D0 15:22 | **Prydz Channel Fan fails.** Nobody knows | 05:22 | 11:22 | |
+| D0 15:44 | HA03 Juan Fernández posts · **Hilo sunrise** | **05:44** | 11:44 | **M** |
+| D0 15:44 | Geoscience Australia: *reinstate.* Internal | 05:44 | 11:44 | |
+| D0 16:22 | PTWC statement, Ross sector · **S2 ends** | 06:22 | 12:22 | **M** |
+| D0 16:40–16:51 | **S3 · the call** | **06:40** | **12:40** | |
+| D0 ~18:00 | Sandoval compiles four pins | 08:00 | 14:00 | |
+| D1 01:45 | Malé | 15:45 (D0) | 21:45 (D0) | |
+| D1 02:08 | Crary Fan fails | 16:08 (D0) | 22:08 (D0) | |
+| D1 04:47 | Jamnagar | 18:47 (D0) | 00:47 | |
+| D1 05:52 | Karachi | 19:52 (D0) | 01:52 | |
+| D1 09:30 | Ross fan | 23:30 (D0) | 05:30 | |
+| D1 ~12:40 | **Hilo arrival** | **~02:40** | 08:40 | |
+| D1 ~17:00 | **Crary wave, US East Coast** | | **~13:00** | |
+| D+3 | Norway | | | |
+| D+8 | **Currituck slide · USNA graduation** | | **failure ~14:00, Corolla ~15:04, Norfolk ~16:16** | |
+| D+12 | The hinge | | | |
+
+**Two things this table now shows that no earlier version did.** The Prydz fan is already running when Nālani makes her case, and one agency in Canberra has said so in writing fifty-six minutes before she dials. And **the Ross shelf has no origin time anywhere** — the manuscript gives only PTWC's 16:22Z observation of water already moving, which means nobody heard it and the failure hour is free.
+
+**Date rollover, since it is the trap.** Hilo is UTC−**10** and therefore *behind* Greenwich. S1 is the evening of Wed **14 May** in Hilo; S3 is the morning of Thu **15 May** in Hilo; the harbour (S9) is the small hours of Fri **16 May**. Every Part One scene except S9 falls before 14:00 Hilo time, so Hilo and Silver Spring share a calendar date throughout.
 
 ---
 
@@ -184,28 +233,46 @@ Full calendar, zone table and transit arithmetic in **`Calendar.md`**. Day 0 is 
 
 **S1 · Waiākea — WRITTEN.** See ESTABLISHED.
 
-**S2 · Silver Spring — IN PROGRESS.** Breakfast written; the office beat remains. Four notices from four agencies, the desk consensus assembling — floating ice, Larsen B precedent, displaces its own weight, no seismic source, no wave — every sentence true, and he concurs. Draft in `S2-suggestions.md`.
-*Function: put Daniel on the record agreeing with the reasoning that becomes Bulletin 003. His error is not negligence. That is the point.*
+**S2 · Silver Spring — WRITTEN.** Both Subsections. See ESTABLISHED. The office beat departed from the sketch and from `S2-suggestions.md` and is better than either; the concurrence never happens, and the notes in `S2-suggestions.md` §2 are now historical.
+*Old function — put Daniel on the record agreeing with the reasoning that becomes Bulletin 003 — is void. What the scene does instead: he asks the right question first, and accepts a true answer to it, and goes to lunch.*
 
-### S3 · D0, mid-morning EDT · phone · both
-**Not a cold call.** She has had his cell number for twenty years — an old friend rung by a woman who knew him when he was still going to be a scientist, who does not have to say *you reviewed my array proposal*, so does not, and it sits inside the call the whole way through.
+### S3 · D0 · phone · both — DRAFTED in `S3-suggestions.md`
+**Hour corrected.** The old head said *mid-morning EDT*; the manuscript's own notices make the premise impossible before 16:22Z. **S3a opens at 05:00 Hilo (15:00Z, 11:00 Silver Spring)** — she is at the machine because she is at the machine at five every weekday, five in Hilo being eleven on the East Coast. She has **two** events. The third and fourth arrive under her hands at 05:44 and 06:22. **The call is 06:40 Hilo / 12:40 Silver Spring**, eighteen minutes into the lunch S2 ends on, and he takes it standing outside the cafeteria.
 
-She makes the four-pins case: four sectors, one day, a circumpolar sequence — and then the thing nobody has a desk for. Trough-mouth fans, loaded to the angle of repose, pore pressure re-equilibrating on a clock of hours. **"I'm not calling about the ice. I'm calling about the mud."** He gives her the textbook, correctly. Somewhere in it he asks after the kids and means it, and the question costs the call ninety seconds it did not have.
+**She slept through the second one.** Oscar buzzes at ten past one, she reads it lying down, and goes back to sleep, and **it is the correct decision** — there is nothing to be done about two events at one in the morning. She refuses herself the comfort of finding a fault in it. This is `four-sectors-sequence.md` §4's *nobody was wrong today* spoken by the one person the reader trusts, before the disaster starts.
 
-After he hangs up he writes *pore pressure?* on a legal pad and does nothing with it, and the doing-nothing is a scene, not a summary.
+**Not a cold call.** She has had his cell number for twenty years — an old friend rung by a woman who knew him when he was still going to be a scientist, who does not have to say *you reviewed my array proposal*, so does not, and it sits inside the call the whole way through. **She is also wrong about it**, per the revision below: she believes the letterhead was his opinion.
 
-### S4 · D0, afternoon · Patrick SFB, then Silver Spring · document + Daniel
-Sandoval's AFTAC screening note as a document: non-nuclear, correctly discriminated, no further action — the treaty machine working exactly as designed and therefore telling no one. Then Daniel in the ops room as the Indian Ocean models converge on sub-decimetre amplitudes and the cancellation goes out. He drafts the US concurrence himself. The chapter ends on his signature.
+She makes the four-pins case: four sectors, one day, a circumpolar sequence — and then the thing nobody has a desk for. Trough-mouth fans, loaded to the angle of repose, pore pressure re-equilibrating on a clock of hours. **"I'm not calling about the ice. I'm calling about the mud."** He gives her the textbook, correctly, and is right at every step of losing the argument. Somewhere in it he asks after the kids and means it, and the question costs the call ninety seconds it did not have — and more than time, because she restarts cold and does it worse. She ends on one small, cheap, real ask: **leave the Southern Ocean DARTs in event mode**, because standard mode is a fifteen-minute average and will smear a twenty-minute period flat.
+
+**S3b, `13:20:00-04:00`, Daniel.** He goes back to the table and does not mention it to either man sitting at it, for a reason that is entirely creditable. At his desk he writes *pore pressure?* on a legal pad, asks Edgar two questions and gets two institutionally correct and useless answers, and **writes four words in Monday's square of the paper calendar.** The doing-nothing is a scene, not a summary, and it ends on the action with no verdict attached.
+
+### S4 · D0, afternoon · document interlude — PROPOSAL, replacing the concurrence scene
+**The old S4 cannot stand.** Its whole function was Daniel drafting and signing the US concurrence, and in the manuscript the cancellation has already gone out overnight and passes his desk as a secondary line item he does not stop for. There is no signature to end a chapter on.
+
+Proposed replacement, three documents and no scene, because the afternoon's real event is institutional and has no room to happen in:
+
+1. **Sandoval's AFTAC screening note** — non-nuclear, correctly discriminated, no further action. The treaty machine working exactly as designed and therefore telling no one.
+2. **Geoscience Australia's preliminary event note, 15:44Z** (`FourteenDays.md` §5) — *The 1522Z event is not an earthquake … we put the transport at 700 to 900 kilometres … Recommend immediate reinstatement of warning for the entire northern Indian Ocean rim.* Header: **Internal. Not for release.**
+3. **Bulletin 003 reproduced**, with the marginal annotation: *Every sentence in this bulletin is true. — ES*
+
+**Why this is better than the scene it replaces.** By a quarter to four Greenwich, one agency on earth has the entire answer, in writing, with a runout figure and two arrival times — and it is marked internal, and it reaches nobody, and Nālani independently reaches the same place from the opposite end of the evidence fifty-six minutes later and also reaches nobody. Two correct readings, an hour apart, on two continents, both landing in a drawer. The chapter no longer ends on a man's signature; it ends on a document that was right and was not sent.
+
+*Open: whether Sandoval's watch log (§2, the four pins) goes here or holds for D0 evening. It is timed 1710 in its own file, which is the same afternoon.*
 
 ### S5 · D0, evening (rolling) · document interlude — the pulse
 A weather-hobbyist forum thread, raw. Japan logs a clean 1.5 hPa blip; then Perth, Réunion, Nairobi, the Azores — timestamps marching westward at 315 m/s, hobbyists cross-posting screenshots, someone starting a shared spreadsheet, nobody knowing what it is a dataset *of*. One poster notes that Bharati would normally catch this and Bharati is not posting. Thread locked for speculation. Last visible post: *whatever it was, it was everywhere.*
 
 # PART TWO — THE MUD
 
-### S6 · D0, night EDT · Silver Spring ops floor · Daniel
-The Prydz fan lets go eleven hours after the ice. Daniel is in the building on an unrelated pretext when the Arabian Sea gauges start posting. Jamnagar. Karachi. The room goes quiet, which is worse than erupting. Someone prints his concurrence memo unasked and he understands it has become an exhibit.
+### S6 · D0 night into D1 · Silver Spring · Daniel — AMENDED for the manuscript
+**Two corrections.** The Prydz fan let go at **15:22Z**, which is 11:22 his time — twelve hours after the ice and *before lunch*, not at night. What happens at night is the **arrivals**. And **Malé comes first**, not the Arabian Sea: Malé 01:45Z is **21:45 his time on D0**, then Jamnagar at 00:47 and Karachi at 01:52 on D1. So the scene opens on a tide gauge in the Maldives at a quarter to ten at night and rolls through the small hours.
 
-He calls the only person who was right, and it is harder than a cold call would have been, because he has to be wrong in front of somebody who watched him choose this life. She answers on the first ring and does not say I told you so, because she is already on the next problem.
+Daniel is in the building on an unrelated pretext. The room goes quiet, which is worse than erupting.
+
+**There is no concurrence memo to print.** Replacement, and better: somebody prints **the Edgar session transcript** — his own typed queries, timestamped, in his own bold monospace, showing that at four minutes past nine he asked *Could they be one?* and stopped. A record of curiosity that went nowhere, written by him, and he understands it has become an exhibit. His phone log is a second one: an eleven-minute call from Hilo at 12:40.
+
+Then he calls the only person who was right, and it is harder than a cold call would have been, because he has to be wrong in front of somebody who watched him choose this life. She answers on the first ring and does not say I told you so, because she is already on the next problem. **And he has one thing to be ashamed of that is specific rather than general: she asked him for the buoys and he wrote it in Monday's square.**
 
 ### S7 · D0, ~8 pm HST · UH Hilo lab · Nālani
 The whiteboard. Nālani, Keala and one other undergrad run the circumpolar arithmetic and the pore-pressure clocks. **The model is Tomás's** — his code, his comments, his variable names, a header block with his initials and a date from before the children could read. Nobody remarks on it. Keala notices the initials and does not ask.
@@ -312,7 +379,8 @@ Numbering preserved from `Scenes.2.md` so existing references still resolve.
 6. **Nālani's proposal history — REVISED.** Declined nine years pre-Day 0 (she is 35), Tomás alive for it. **Daniel argued to fund her and was overruled by his own boss, on the ground that Hilo was the wrong institution.** He did not write the review. Whether she knows this is open; whether he ever tells her is open. The old "Daniel on the panel, a betrayal between friends" is void.
 6a. **He was enchanted by her at Scripps.** Whether she knew is open, and so is what he thinks it was.
 6b. **He is fired after Currituck**, in the weeks following D+8. What he does next is undecided. This replaces the S20 defunding as the mechanism that ends his career.
-7. **The one sheet (S7 → S21):** predicted 6.6 / 7.5 / 4.6 h; observed 6.75 / 6.4 / 5.0. Time-stamped by the send before the second fan fails.
+7. **The one sheet (S7 → S21) — SUSPENDED, the numbers are the wrong quantity.** As written this item said *predicted 6.6 / 7.5 / 4.6 h, observed 6.75 / 6.4 / 5.0*, described as failure windows for the Crary, Ross and Belgica **fans**. They are not fan windows. They are `four-sectors-sequence.md` §7's **circumpolar ice intervals** — Prydz→Ross 6.6, Prydz→Weddell westbound 7.5, Ross→Amundsen 4.6 — and §7 gives them to **Sandoval**, not to Nālani. Three problems, all of which land on **Exhibit 14** in S21: the quantity is mislabelled, the same three numbers are owned by two characters, and the ice intervals are not a *prediction* by 8 p.m. on D0, when three shelves have already failed. **Do not cite this item until it is replaced.** Replacement fan windows can be computed from the pore-pressure clock — see `S3-suggestions.md` §5c — on request.
+7a. **S7 may not beat the second fan.** `four-sectors-sequence.md` §5 puts the Crary Fan at D1 **02:08Z**, which is **16:08 HST on D0**, four hours before S7's whiteboard at 8 p.m. Hilo. #7 requires the sheet to be sent first. Either S7 moves earlier or the Crary onset moves later. Flagged, not opened.
 8. **Nālani's chronology.** Harvard 18–22; Scripps 22–29; married ~24; children ~25 and ~28; declined SOEST and PMEL at 29, married, Tomás alive, joint; Hilo from 29; array proposal declined at 35; **widowed at 38**. Nothing may imply she came home because she was widowed.
 9. **Daniel's chronology.** PhD ~29; Scripps postdoc 29–33; married Ellen ~32; PTWC 34–40, Eve born there ~35; Silver Spring 40–51.
 10. **Ages at Day 0.** Nālani 44, Daniel 51, Ellen 49, Lehua 16, Ikaika 19, Keala 20, Marcus 55, Tūtū Ruth 91 (dies Y2 at 93). **Eve is a high-school senior — 17 or 18, per the manuscript — which breaks the old Lehua/Eve twinning at sixteen and shifts every Part Four age for her by one or two years.** Recheck S20–S25.
@@ -340,7 +408,23 @@ Numbering preserved from `Scenes.2.md` so existing references still resolve.
 32. **The Grier marriage is cold**, per S2. Courteous, distant, transacted at opposite ends of a counter. No affair, no crisis, no hostility. Every earlier note describing it as good is void.
 33. **The Griers eat at the counter**; the table is abandoned. Eve stopped sitting with them and her parents followed. This is the S1 rhyme and nothing may point at it.
 34. **The cottage is five generations**, Ellen's family, and **Ellen makes plenty.**
-35. **Daniel agrees with things.** *"Sure"* in the kitchen, *he concurs* in the office. The rhyme is the character.
-37. **Daniel and Edgar work in UTC.** Not just Edgar's output — Daniel himself. He came off a 24/7 watch floor where everything was Z, and he never converts. This is the sharpest available contrast with Nālani, whose scenes run on Hilo evening light and who has to be *told* the Greenwich time by a machine. **Decided: subsection heads stay local-with-offset for every scene, both POVs.** The apparatus is uniform; the UTC habit lives inside Daniel's narration and Edgar's output, not in the scene furniture.
+35. **Daniel agrees with things — AMENDED, because the manuscript changed the second term.** There is no concurrence in `ice.lyx`. The rhyme is *"Sure."* in the kitchen, then *"We've got a mystery. Let's solve it, but let's not drop the ball on our usual business,"* then *"Let's have lunch," and they did.* Not agreement with bad reasoning — **correct proportion, applied to a day that is not proportionate.** Add S3's third term when it goes in: he says *I'll ask about the buoys*, and calendars it for Monday.
+37. **Edgar works in UTC. Daniel's narration does not — AMENDED to the manuscript.** Edgar's output is Z throughout and that stands. But the office beat narrates *"just after eleven forty-five"* for the 15:44Z posting — that is EDT, in close third, on his own clock, and the manuscript governs. So the cut the book makes is **machine output in Z, human narration local, for both POVs**, which is the same rule `Calendar.md` §2 already gives and is one distinction instead of two. The old claim that Daniel himself never converts is void as written; reinstating it costs one phrase in `ice.lyx` if you want it. **Subsection heads stay local-with-offset for every scene, both POVs** — unchanged and still decided.
 38. **Typographic registers.** Both men type to their assistants in monospaced bold. **Oscar answers in typewriter; Edgar answers in the `Analyst` style** — sans, small, indented, ruled. The difference is not how the machines are addressed but what talks back: hers is a terminal she drives, his is an institution reporting at him. Defined in `lyx/analyst.module`; see `Typography.md`.
 36. **Daniel's employer.** Commerce → NOAA → **National Weather Service** → the **Tsunami Program**, whose manager sits in the NWS Marine, Tropical, and Tsunami Services Branch. **NWS HQ is SSMC2, 1325 East-West Highway, Silver Spring** — one of four NOAA towers around a plaza at the Metro. He is **headquarters, not operations**: warnings are issued by PTWC (Ford Island) and NTWC (Palmer, Alaska). He owns DART, the seismic feeds, international assessment and the NTHMP partnership with FEMA, USGS and the states. **Grade GS-15** — the ceiling for someone who never converted to SES, which is what his boss is. Full detail in `SilverSpring.md`.
+
+### Added from `ice.lyx`'s office beat and from S3
+
+39. **There is no US concurrence in the manuscript.** The IOTWMS cancellation reaches Daniel as a *secondary* item in Edgar's queue, already done overnight, and he takes no action. Any scene, document or Part Four exhibit that assumes his signature on it is void — S4 is rewritten above, and S6's printed memo is replaced by the Edgar transcript.
+40. **The manuscript fixes the four notices** and they govern: HA01 **04:12:07Z**, baz **189°**, origin Prydz **03:20:07Z**; HA04 Crozet **10:51Z**, baz **209°**, origin Weddell **10:05:00Z**, with the unanswered query *Is your 0412 event ongoing?*; HA03 Juan Fernández **15:44Z**, 350 s, baz **196°**, origin Amundsen **14:50Z**; PTWC **16:22Z**, Scott Base and three Ross-sector DART buoys, no seismic origin. Note HA04's baz is **209°**, not the 214° in `four-sectors-sequence.md` §1. **The Ross shelf has no origin time anywhere and the hour is free.**
+40a. **Four of the six check out; two do not — SUPERSEDED by `Hydroacoustics.md`, which computes the whole network against real bathymetry.** Correct as written: HA01's 52-minute Prydz transit (computed **52.6**), **HA04's 209° to the Weddell** (computed **210.2** — right to a degree), HA03's 54-minute Amundsen transit (**55.3**) and 196° bearing (**193.7**). Wrong: **HA01's back-azimuth should be ~206°**, since 189° points at Wilkes Land rather than Prydz Bay; and **Crozet cannot reach the Weddell in 46 minutes** — the path out is 6,242 km and takes 70, so Crozet posts **11:15Z** and Daniel's *six hours apart* becomes *seven*. My earlier note in `S3-suggestions.md` §5g used front-to-station great circles and got both Crozet numbers wrong in consequence; it is void, and `Hydroacoustics.md` replaces it.
+40b. **Crozet hears Prydz Bay twenty-one minutes BEFORE Cape Leeuwin** — 2,806 km against 4,675 km. S1's *appropriately late* is backwards. Replacement paragraph in `Hydroacoustics.md` §5a, and the sign of ΔT becomes her first hard constraint on the geometry rather than a discarded number.
+40c. **Detectable and locatable are different instants, and one station can never locate anything.** Six of the eleven IMS stations are hydrophone triads (bearing + time); five are island seismometers (time only, no usable bearing). Prydz: detected 03:52Z, located 04:13Z. Weddell: detected 10:58Z by a T-station with no bearing, located 11:15Z. **Amundsen: detected 15:44Z, not locatable for another 62 minutes** — so the beepers in S2 deliver a direction and no place, which is a required modification to Edgar's third block. Ross: not acoustically located until ~90 minutes after PTWC's sea-level statement, which is why that statement correctly says *no seismic origin*. Full tables in `Hydroacoustics.md` §§2–3.
+40d. **Only three or four of the eleven stations hear any given collapse**, and **Diego Garcia cannot hear Prydz Bay at all** — the Kerguelen Plateau is in the way. The one IMS hydrophone station in the Indian Ocean is deaf to the event that empties the Indian Ocean rim.
+41. **Number2 and Ché exist.** Number2 is Daniel's chief scientific officer, **below him**, and is not the SES boss who owns *premature* — the book has both. **"Number2" is a placeholder and needs a real name before S3 or S4 can be drafted.** Ché is his Knauss fellow, six weeks in, ice not his field.
+42. **Daniel bikes to work** and showers at the NOAA Fitness Center to be presentable by nine. **He keeps a paper calendar** on the desk and checks it first — and in S3 he writes the fans into Monday's square, which is where his failure becomes an object. **He resents the encroachment of AI on humanity** and answers his own mail while Edgar only sorts it. That last is the exact inverse of Nālani, who built her machine and drives it, and hers is the one that has been useful.
+43. **The `Scenes.2` branch content is not established text.** *"No e-bikes, no e-calendars"*, the security fob and the thirty-day password sit inside a deactivated LyX branch in `ice.lyx`. Candidate, not fact. The paper calendar itself is outside the branch and is fact.
+44. **Eve hugs him.** After Ellen leaves, Eve comes over, puts an arm around him, *"Gotta run. Love you,"* and he sits smiling and watching her go. The marriage is cold; the daughter is not. Nothing in Part Four may treat the household as uniformly distant.
+45. **S3's hour.** S3a opens **05:00 HST** — she is at the machine every weekday at five because five in Hilo is eleven on the East Coast. She has **two** events; the third and fourth arrive under her hands at 05:44 and 06:22. The call is **06:40 HST / 12:40 EDT**, inside the lunch S2 ends on. **She slept through the second alert and it was the correct decision.**
+46. **Hilo is UTC−10 and therefore behind Greenwich.** S1 is the evening of **Wed 14 May** in Hilo; S3 is the morning of **Thu 15 May**; the harbour (S9) is the small hours of **Fri 16 May**. Every Part One scene except S9 falls before 14:00 Hilo time, so Hilo and Silver Spring share a calendar date throughout. The rollover the heads exist to defuse is S1's, where the head reads 05-14 and the event inside it is 03:20Z on the 15th.
+47. **`reference/ice.md` and `reference/FourteenDays.md` are byte-identical.** One is a stray copy and should go before they drift.

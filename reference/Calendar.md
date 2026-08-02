@@ -68,10 +68,17 @@ Two free gifts in that table. **The hinge falls the day after Memorial Day** —
 
 Scene heads use plain ISO 8601 local-with-offset. **Offsets west of Greenwich are negative.**
 
-| Scene | Section | Subsection string | = UTC |
-|---|---|---|---|
-| S1 | Waiākea | `2031-05-14T17:20:00-10:00` | 15 May 03:20Z |
-| S2 | Silver Spring | `2031-05-15T07:00:00-04:00` | 15 May 11:00Z |
+| Scene | Section | Subsection string | = UTC | |
+|---|---|---|---|---|
+| S1 | Waiākea | `2031-05-14T17:20:00-10:00` | 15 May 03:20Z | in `ice.lyx` |
+| S2 | Silver Spring | `2031-05-15T07:00:00-04:00` | 15 May 11:00Z | in `ice.lyx` |
+| S2 | Silver Spring | `08:30:00-04:00` | 15 May 12:30Z | in `ice.lyx`, short form |
+| S3a | *(open — Waiākea?)* | `2031-05-15T05:00:00-10:00` | 15 May 15:00Z | proposed |
+| S3b | same section | `2031-05-15T13:20:00-04:00` | 15 May 17:20Z | proposed |
+
+**S2's second head uses a short form** — `08:30:00-04:00`, time-only, no date. That is a reasonable house rule for a second subsection inside one scene on one day, and it dodges the cost noted below by never re-stating a date the reader might misread. If you want it as the rule, S3b becomes `13:20:00-04:00` — but note that S3 changes *hemisphere* between its subsections and not merely hour, so the full date-and-offset string is doing more work there than it does in S2.
+
+**S3's two heads are 6 h 20 m apart on the page and 2 h 20 m apart in the world**, in opposite directions — hers reads 05:00 and his reads 13:20, and his is the later. That is the sharpest instance in Part One of the thing §2 says the heads exist for.
 
 **S1 currently reads `+10` and needs to be `-10:00`.** Hilo is UTC−10; `+10` is Vladivostok. Use the two-digit minute field — `-10:00` rather than `-10` — because RFC 3339 requires it and every parser accepts it.
 

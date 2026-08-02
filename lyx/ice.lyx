@@ -536,17 +536,17 @@ Explain alert
 \begin_layout Standard
 A window opened showing a waveform,
  labelled:
- HA01,
- Cape Leeuwin,
- T04:12:07Z.
+ HA04,
+ Crozet,
+ T03:51:07Z,
+ Back-azimuth 157°.
  A classic ice collapse waveform:
  a descending sweep,
  eleven hertz down to four across three hundred and forty seconds.
 \end_layout
 
 \begin_layout Standard
-I knew the shape,
- the sound of ice cracking.
+I knew the shape of ice cracking.
  I looked at the y-axis and typed.
 \end_layout
 
@@ -581,13 +581,13 @@ It could not be —
 
 \family typewriter
 \series bold
-Current HA01 waveform
+Current HA04 waveform
 \end_layout
 
 \begin_layout Standard
 Oscar displayed a new signal,
  constant and maxed out.
- The HA01 signal was the waveform of a damaged hydrophone.
+ The HA04 signal was the waveform of a damaged hydrophone.
  
 \end_layout
 
@@ -595,22 +595,59 @@ Oscar displayed a new signal,
 
 \family typewriter
 \series bold
-Examine Crozet hydrophones,
- HA04
+Locate consistent events.
 \end_layout
 
 \begin_layout Standard
-Crozet is a French rock,
- significantly west of Leeuwin with three hydrophones.
+Oscar replied,
  
+\begin_inset Quotes qld
+\end_inset
+
+No consistent events currently registered.
+\begin_inset Quotes qld
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Oscar repainted the window.
- Crozet had it.
- The same waveform as HA01,
- appropriately late and not maxed out,
- just unimaginable.
+It was either the death throes of a failing hydrophones,
+ or the event signal was still in transit.
+ If the latter,
+ Oscar would ping me when the signal arrived somewhere.
+\end_layout
+
+\begin_layout Standard
+I sat there,
+ drumming my fingers on the table.
+ Waiting,
+ losing patience I started towards the door.
+ Oscar buzzed.
+ I looked down at the screen and there it was,
+ the next message,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Consistent event registered.
+ Hit enter for display.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I hit enter and the window refreshed.
+ It was now labeled:
+ HA01,
+ Cape Leeuwin,
+ T04:12:07Z,
+ Back-azimuth 205.7°.
+ It held the same waveform as HA04,
+ unimaginably huge,
+ just not maxed out.
  We knew the detector locations and we knew ΔT.
  I turned to Oscar.
  
@@ -631,7 +668,7 @@ My screen filled with a 3D globe intersected by a hyperboloid.
 
 \family typewriter
 \series bold
-Display surface intersection
+surface intersection
 \end_layout
 
 \begin_layout Standard
@@ -713,64 +750,6 @@ S2
 
 \begin_layout Subsection
 2031-05-15T07:00:00-04:00
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch Plan
-inverted 0
-status open
-
-\begin_layout Standard
-S2 · D0,
- 7:00 am EDT · Silver Spring · Daniel.
- Breakfast:
- the Corolla cottage —
- repair estimate,
- flood insurance non-renewal,
- her refusal to sell,
- his refusal to say what he thinks.
- Two people who like each other disagreeing about money.
- Maya eats standing up because it is faster,
- not because there is anything to stay out of range of.
- On her way out Ellen mentions a directorship that is opening —
- lightly,
- the fourth time in ten years —
- and he says he'll look at it,
- and they both know he won't,
- and she kisses him anyway.
-\end_layout
-
-\begin_layout Standard
-Then the office,
- where four notices from four agencies sit in his queue and the desk consensus assembles itself:
- floating ice,
- Larsen B precedent,
- displaces its own weight,
- no seismic source,
- no wave.
- Every sentence true.
- He concurs.
-\end_layout
-
-\begin_layout Standard
-Function:
- plant the D+8 payoff;
- put Daniel on the record agreeing with the reasoning that becomes Bulletin 003.
- His error is not negligence,
- and his marriage is not a wound.
- Both of those are the point.
-\end_layout
-
-\begin_layout Standard
-Ledger:
- #3 Daniel never gets wet.
- #4 the cottage survives D1 and dies D+8;
- nothing between may damage it.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -936,7 +915,8 @@ a portfolio-level reassessment of coastal exposure
 The Feds will take us,
  but unless we elevate the structure,
  our insurance goes up almost four times.
- Elevating is almost another hundred.
+ Elevating is almost another hundred.—
+
 \begin_inset Quotes qrd
 \end_inset
 
@@ -1129,7 +1109,7 @@ The government required two-factor authentication and an eight-character passwor
 
 \begin_layout Standard
 He brought up his AI assistant,
- a government issue LLM named Edgar,
+ a government-issue LLM named Edgar,
  guaranteed secure.
  He typed,
 \end_layout
@@ -1145,16 +1125,16 @@ Top priority items.
 
 \series bold
 1.
- IMS HA01 CAPE LEEUWIN ::
- 04:12Z
+ IMS HA04 Crozet ::
+ 03:51Z
 \end_layout
 
 \begin_layout Analyst
 
 \series bold
 2.
- IMS HA04 CROZET::
- 10:51Z
+ IMS HA03 Juan Fernández::
+ 13:00Z
 \end_layout
 
 \begin_layout Standard
@@ -1165,8 +1145,13 @@ Expand 1.
 \end_layout
 
 \begin_layout Analyst
-Cape Leeuwin (HA01) posted at 2031-05-15T04:12:07Z.
- 
+Crozet (HA04) posted at 2031-05-15T03:51Z,
+ back-azimuth 157.5
+\end_layout
+
+\begin_layout Analyst
+Cape Leeuwin (HA01) posted at 2031-05-15T04:12Z ,
+ back-azimuth 205.7
 \end_layout
 
 \begin_layout Analyst
@@ -1176,12 +1161,11 @@ Broadband arrival,
 \end_layout
 
 \begin_layout Analyst
-Back-azimuth 189°,
- origin Prydz Bay at 2031-05-15T03:20:07Z
+Origin Prydz Bay at 2031-05-15T03:20Z
 \end_layout
 
 \begin_layout Analyst
-Largest instrument amplitude.
+Max instrument amplitude.
 \end_layout
 
 \begin_layout Standard
@@ -1192,8 +1176,8 @@ Expand 2.
 \end_layout
 
 \begin_layout Analyst
-Crozet (HA04) posted at 2031-05-15T10:51Z.
- 
+Juan Fernández (HA03) posted at 2031-05-15T13:00Z,
+ back-azimuth 201.0 
 \end_layout
 
 \begin_layout Analyst
@@ -1203,13 +1187,12 @@ Broadband arrival,
 \end_layout
 
 \begin_layout Analyst
-Back-azimuth 209°,
- origin Weddell at 2031-05-15T10:05:00Z
+origin unknown
 \end_layout
 
 \begin_layout Analyst
-query to Cape Leeuwin:
- Is your 0412 event ongoing?
+query to Crozet:
+ Is your 0351 event ongoing?
  No response.
 \end_layout
 
@@ -1217,7 +1200,8 @@ query to Cape Leeuwin:
 Odd,
  he thought,
  two events,
- six hours apart.
+ seven hours apart;
+ he wondered where #2 would resolve to.
  He forwarded the notes to Number2,
  his chief scientific officer,
  with subject:
@@ -1247,7 +1231,7 @@ Indian Ocean Tsunami Warning and Mitigation System
 
 \end_inset
 
- processed and canceled a warning based on event HA01::2031-05-15T04:12Z
+ processed and canceled a warning based on event HA04::2031-05-15T03:51Z
 \end_layout
 
 \begin_layout Standard
@@ -1262,14 +1246,85 @@ Done.
 \end_layout
 
 \begin_layout Standard
-Daniel minimized Edgar's window and began his email.
+Daniel turned to his email.
  Each day,
  he thought about letting Edgar handle more of this task.
  Currently,
  it prioritized his emails,
  but he answered them himself.
- He was old enough to feel and resent the encroachment of AI on humanity.
+ He resented the encroachment of AI on humanity.
  Some staffers let Edgar respond to emails.
+\end_layout
+
+\begin_layout Standard
+Just as Daniel was reading his first email,
+ a reminder from the director's office Departmental Budgets were due June 30,
+ Edgar beeped.
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Ah,
+\begin_inset Quotes qrd
+\end_inset
+
+ he thought,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Now we'll find out where that event was.
+ He knew he should deal with the email.
+ He returned to Edgar,
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Top priority items.
+\end_layout
+
+\begin_layout Analyst
+
+\series bold
+1.
+ IMS HA03 JUAN FERNÁNDEZ ::
+ 13:00Z
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Expand.
+\end_layout
+
+\begin_layout Analyst
+Wake (HA11) posted at 2031-05-15T13:37Z,
+ back-azimuth 183.6
+\end_layout
+
+\begin_layout Analyst
+Broadband arrival,
+ 11Hz to 4Hz,
+ 340 sec;
+\end_layout
+
+\begin_layout Analyst
+Juan Fernández (HA03) posted at 2031-05-15T13:00Z,
+ back-azimuth 201.0 
+\end_layout
+
+\begin_layout Analyst
+Origin Ross at 2031-05-15T11:35 
+\end_layout
+
+\begin_layout Standard
+He looked at his watch and thought:
+ nine forty,
+ not bad Edgar took three minutes.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1305,7 +1360,7 @@ Two ice shelves crack so close in time.
 \end_layout
 
 \begin_layout Standard
-Number2 came back,
+Number2 settled himself into Daniel's primary visitor's chair,
  
 \begin_inset Quotes qld
 \end_inset
@@ -1323,26 +1378,33 @@ Of course,
 \end_layout
 
 \begin_layout Standard
-A lively discussion ensued,
- various mechanisms were proposed and disposed of.
- The most common questions concerned seismic activity or vulcanism:
+With Number2 sitting,
+ the office became the sight for an unscheduled discussion.
+ The topic was:
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Are the events related?
+\begin_inset Quotes qrd
+\end_inset
+
+ Various mechanisms were proposed and disposed of.
+ A few staffers leaned up against the wall or bookcases.
+ The most common theories involved seismic activity or vulcanism:
  there was none.
  There were some interesting questions about the effect on sheet flow and stability.
 \end_layout
 
 \begin_layout Standard
 And then,
- just after eleven forty-five,
- beepers started going off in the hallway,
- and Daniel's and Number2's joined the party.
- Of course,
- it was a priority event.
+ just after ten,
+ beepers started going off.
+ Everyone understood,
+ it was another priority event.
  Something that might not happen once in a year,
  happening three times in a day.
-\end_layout
-
-\begin_layout Standard
-Daniel realized and turned back to restore Edgar's window.
+ Everyone crowded around Daniel's desk as he turned back to Edgar's window.
 \end_layout
 
 \begin_layout Standard
@@ -1356,8 +1418,8 @@ Top priority items.
 
 \series bold
 1.
- IMS HA03 JUAN FERNÁNDEZ ::
- 15:44Z
+ IMS HA09 Tristan da Cunha::
+ 14:01Z T-phase
 \end_layout
 
 \begin_layout Standard
@@ -1368,33 +1430,47 @@ Expand.
 \end_layout
 
 \begin_layout Analyst
-Juan Fernández posted at 2031-05-15T15:44Z.
- 
+Tristan da Cunha (HA09) posted at 2031-05-15T14:01Z
 \end_layout
 
 \begin_layout Analyst
-Broadband arrival,
- 11Hz to 4Hz,
- 350 seconds
-\end_layout
-
-\begin_layout Analyst
-Back-azimuth 196°.
- origin Amundsen Sea Embayment,
- 2031-05-15T14:50Z.
+Origin unknown
 \end_layout
 
 \begin_layout Standard
-Number2 was right behind Daniel's chair and a few others had entered his office.
- Daniel swiveled again,
- looked at Number2 and said,
+\begin_inset Quotes qld
+\end_inset
+
+Wonder where it is?,
+\begin_inset Quotes qrd
+\end_inset
+
+ said Number2.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Curiouser and curiouser,
+\begin_inset Quotes qrd
+\end_inset
+
+ Daniel said.
+\end_layout
+
+\begin_layout Standard
+Number2 was right behind Daniel's chair and a few others had gathered as well.
+ Daniel swiveled,
+ looked at Number2 and said to the group at large,
  
 \begin_inset Quotes qld
 \end_inset
 
 We've got a mystery.
  Let's solve it,
- but let's not drop the ball on our usual business.
+ but don't get to thinking you're grad students again and drop the ball on our usual business.
+ Now get out.
 \begin_inset Quotes qrd
 \end_inset
 
@@ -1413,7 +1489,7 @@ Number2 sat and motioned his current Knauss fellow,
 
 Dan,
  you're right about the mystery.
- Three Antarctic coastal events in one day and no seismic activity.
+ Three priority events in one day and no seismic activity.
 \begin_inset Quotes qrd
 \end_inset
 
@@ -1421,73 +1497,22 @@ Dan,
 \end_layout
 
 \begin_layout Standard
-The three of them chatted about the impact on ice shelf loss on adjacent ice sheet stability and movement.
- Ice had not been a focus of Ché's studies so Number2 gave a quick overview for his benefit.
- After a bit,
- Daniel,
- whose job description included interacting with Knauss fellows,
- suggested lunch in the cafeteria.
- Ché responded,
- 
-\begin_inset Quotes qld
-\end_inset
-
-Love to.
- Mine's at my desk,
- shall I meet you downstairs?
-\begin_inset Quotes qrd
-\end_inset
-
- and rose.
-\end_layout
-
-\begin_layout Standard
-Daniel answered,
- 
-\begin_inset Quotes qld
-\end_inset
-
-No come back here.
- Give us five minutes and close the door,
-\begin_inset Quotes qrd
-\end_inset
-
- and he did.
- Daniel and Number2 began discussing staffing and funding levels for the next year,
- but just as they got started,
+The three of them began discussing the impact of ice shelf loss on adjacent ice sheet stability and movement.
+ As a seismologist,
+ ice had not been a focus of Ché's studies,
+ so Number2 gave a quick overview for his benefit.
+ Just as they got started,
  Edgar's alert and a buzz from Number2's phone grabbed their attention.
- Before they could reorient towards the screen,
- there was a knock on the door and an automatic reply,
+ Daniel said,
  
 \begin_inset Quotes qld
 \end_inset
 
-Come in.
+Probably the location for the HA09 event,
 \begin_inset Quotes qrd
 \end_inset
 
- 
-\end_layout
-
-\begin_layout Standard
-Ché opened the door,
- lunch in hand,
- and said,
- 
-\begin_inset Quotes qld
-\end_inset
-
-The alerts,
- it's happening again.
-\begin_inset Quotes qrd
-\end_inset
-
- With the door open they could all hear phones beeping.
- 
-\end_layout
-
-\begin_layout Standard
-Daniel waved Ché over to the desk where he typed,
+ and turned back to his screen and typed,
 \end_layout
 
 \begin_layout Standard
@@ -1498,11 +1523,16 @@ Expand priority items.
 \end_layout
 
 \begin_layout Analyst
-PTWC posted at 2031-05-15T16:22Z
+HA10 Ascension Island posted at 2031-05-15T14:36Z,
+ back-azimuth 189.8
 \end_layout
 
 \begin_layout Analyst
-Sea level disturbance Scott base and Ross sector DART buoys.
+Tristan da Cunha (HA09) posted at 2031-05-15T13:37Z
+\end_layout
+
+\begin_layout Analyst
+Origin Weddell at 2031-05-15T13:09Z
 \end_layout
 
 \begin_layout Standard
@@ -1519,13 +1549,958 @@ Let's have lunch,
  and they did.
 \end_layout
 
+\begin_layout Section
+S3
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+S3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Hilo Bay 2031-05-15T05:00:00-10:00
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch Plan
+inverted 0
+status collapsed
+
+\begin_layout Standard
+**Not a cold call.** She has had his cell number for twenty years —
+ an old friend rung by a woman who knew him when he was still going to be a scientist,
+ who does not have to say *you reviewed my array proposal*,
+ so does not,
+ and it sits inside the call the whole way through.
+\end_layout
+
+\begin_layout Standard
+She makes the four-pins case:
+ four sectors,
+ one day,
+ a circumpolar sequence —
+ and then the thing nobody has a desk for.
+ Trough-mouth fans,
+ loaded to the angle of repose,
+ pore pressure re-equilibrating on a clock of hours.
+ **"I'm not calling about the ice.
+ I'm calling about the mud."** He gives her the textbook,
+ correctly.
+ Somewhere in it he asks after the kids and means it,
+ and the question costs the call ninety seconds it did not have.
+\end_layout
+
+\begin_layout Standard
+After he hangs up he writes *pore pressure?* on a legal pad and does nothing with it,
+ and the doing-nothing is a scene,
+ not a summary.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Oscar buzzed me a few times,
+ but I was already sleeping poorly and I didn't follow up.
+ I staggered out of bed a little after five.
+ 
+\end_layout
+
+\begin_layout Standard
+Yesterday's event and the discussion of Forty-six had spooked me.
+ I had dreamed of the bay ringing,
+ and of knowing,
+ and being helpless and watching them die.
+ I woke up sweating.
+\end_layout
+
+\begin_layout Standard
+I managed to put on coffee and got to Oscar a little before five-thirty.
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Explain Alert.
+\end_layout
+
+\begin_layout Standard
+A window labeled HA09,
+ Tristan da Cunha,
+ T-phase,
+ 2031-05-15T10:33Z opened.
+ It displayed an ice collapse waveform,
+ very much like the one I had seen yesterday with one difference,
+ this one never maxed out.
+ At the top of the window was a message area with:
+ 
+\end_layout
+
+\begin_layout Itemize
+Current HA09 waveform normal 
+\end_layout
+
+\begin_layout Itemize
+Located via Ascension (HA10) back-azimuth 190°,
+ origin:
+ Weddell 2031-05-15T09:40Z
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Amplitude:
+ 
+\end_layout
+
+\begin_layout Standard
+The event had been large,
+ but not like Prydz.
+ Strange,
+ two so close in time and nothing to link them.
+\end_layout
+
+\begin_layout Standard
+I sipped my coffee and wondered,
+ as I do every morning,
+ whether I'd ever be able to afford the pure Kona that the tourists drink.
+ My eyes closed,
+ my head sank forward and then,
+ almost magically,
+ I was alert and back at work.
+\end_layout
+
+\begin_layout Standard
+I started my email with Oscar.
+ My procedure was simple but carefully designed.
+ It prioritizes my Inbox.
+ Weight reduction,
+ penis and breast enhancement and 
+\begin_inset Quotes qld
+\end_inset
+
+How to make money without working
+\begin_inset Quotes qrd
+\end_inset
+
+ go at the bottom of the pile.
+ Oscar presents unread emails one at a time.
+ I examine each and have keystrokes for delete,
+ unsubscribe,
+ and handle later (which marks it unread and proceeds).
+ My goal is to clear my unread emails with keystrokes.
+ For the others,
+ I instruct Oscar concerning the desired response,
+ which it produces and I proof read and modify everything that goes out.
+ Everybody needs there work checked —
+ Oscar included
+\end_layout
+
+\begin_layout Standard
+That morning my top two emails were from Ikaika and a friend and colleague at Mānoa.
+ Those were both definitely handle later and as I proceeded to a meeting announcement,
+ Oscar beeped me.
+ It was 05:45:00.
+\end_layout
+
 \begin_layout Standard
 \begin_inset Branch Draft
 inverted 0
-status open
+status collapsed
 
 \begin_layout Standard
+I ran the Crozet solution again by hand.
+ It took me forty minutes and gave me exactly what Oscar had given me in four seconds,
+ and I did it anyway,
+ because I wanted to be the person who had done it and not the person who had been told.
+ Six years of that.
+ You stop trusting the thing that hands you answers,
+ because nothing has been asking for your answers.
+\end_layout
 
+\begin_layout Standard
+The solution came out where it had come out.
+ The Weddell.
+ Two shelves,
+ six hours and forty-five minutes apart,
+ on opposite sides of a continent,
+ and no seismicity under either of them.
+\end_layout
+
+\begin_layout Standard
+Tūtū was already up.
+ She was up before me most days and she took the chair by the window in the dark and waited for the light the way other people wait for a bus.
+ I brought her coffee and she said thank you,
+ kuʻu hiwahiwa,
+ and neither of us said anything else.
+ She had asked me one question the night before and I had answered it.
+ It isn't that kind,
+ Tūtū.
+ It's ice,
+ and ice floats,
+ and it doesn't make a wave.
+ Every word of that was true,
+ and she had looked at me a while and turned back to the window,
+ and I had gone to bed feeling I had been kind to her.
+\end_layout
+
+\begin_layout Standard
+At a quarter to six the sun came up over the water and Oscar buzzed and they were the same minute.
+\end_layout
+
+\begin_layout Standard
+Juan Fernández.
+ Back-azimuth 196,
+ origin in the Amundsen embayment at ten to three Greenwich.
+ Three shelves.
+ Three oceans.
+\end_layout
+
+\begin_layout Standard
+I did not run that one by hand.
+\end_layout
+
+\begin_layout Standard
+The fourth came in at twenty past six and it was not a sound at all.
+ The Pacific centre had put out an information statement —
+ sea level disturbance recorded at Scott Base and at three DART buoys in the Ross sector,
+ no seismic origin,
+ under evaluation.
+ No time on it.
+ Nobody had heard the Ross shelf go,
+ because there was no instrument in the right place to hear it.
+ They had only watched the water move afterwards and written down that the water had moved.
+\end_layout
+
+\begin_layout Standard
+I typed.
+\end_layout
+
+\begin_layout Standard
+**`Display all four origins on the globe.`**
+\end_layout
+
+\begin_layout Standard
+Four marks came up spread around the bottom of the world,
+ and I looked at them the way you look at a word you have read too many times.
+\end_layout
+
+\begin_layout Standard
+**`Rotate.
+ South pole up.`**
+\end_layout
+
+\begin_layout Standard
+The screen turned over and the continent came up flat and white with the four marks set around its edge,
+ and it was a clock face.
+ Prydz at twenty past three.
+ The Weddell at five past ten.
+ The Amundsen at ten to three.
+ The Ross sector somewhere in the last six hours with nobody's name on the time.
+\end_layout
+
+\begin_layout Standard
+In order.
+ Around a circle.
+ In one day.
+\end_layout
+
+\begin_layout Standard
+The Southern Ocean is the only ocean on this planet that closes on itself.
+ There is no continent in the way.
+ Whatever leaves Prydz Bay comes back to Prydz Bay,
+ and on the way round it passes every other embayment there is,
+ and it does not need anything to help it.
+\end_layout
+
+\begin_layout Standard
+The light was coming up on the wall behind the screen.
+ I could hear Tūtū's cup go down on the arm of the chair.
+\end_layout
+
+\begin_layout Standard
+I went and found the number.
+\end_layout
+
+\begin_layout Standard
+I had had it for twenty years and used it twice,
+ both times about somebody else's business.
+ It came up under a name I had typed into a phone that no longer existed,
+ when we were both going to be people we did not turn out to be.
+\end_layout
+
+\begin_layout Standard
+He picked up on the third ring and said my name before I said anything,
+ which meant he still had me in his too.
+\end_layout
+
+\begin_layout Standard
+"Nālani Akana."
+\end_layout
+
+\begin_layout Standard
+"Daniel."
+\end_layout
+
+\begin_layout Standard
+"Twenty years." A chair went back,
+ and then a door,
+ and then the sound changed to a corridor.
+ "Are you all right?
+ Is everything —
+"
+\end_layout
+
+\begin_layout Standard
+"Everything's fine.
+ I need eleven minutes."
+\end_layout
+
+\begin_layout Standard
+"You've got them."
+\end_layout
+
+\begin_layout Standard
+I said,
+ "You have four notices on your desk.
+ Cape Leeuwin at twelve past four,
+ Crozet at ten to eleven,
+ Juan Fernández at a quarter to four,
+ and the Pacific centre's statement at twenty past."
+\end_layout
+
+\begin_layout Standard
+There was a pause about a second long.
+ "I have all four.
+ How do you have all four?"
+\end_layout
+
+\begin_layout Standard
+"They're public.
+ I've had a watcher on the hydroacoustic feeds for six years."
+\end_layout
+
+\begin_layout Standard
+"Watching for what?"
+\end_layout
+
+\begin_layout Standard
+"For ice."
+\end_layout
+
+\begin_layout Standard
+He didn't say anything,
+ and I let him not say it.
+\end_layout
+
+\begin_layout Standard
+"All right," he said.
+ "Then you know what the room here thinks."
+\end_layout
+
+\begin_layout Standard
+"The room there thinks they're four events."
+\end_layout
+
+\begin_layout Standard
+"The room here thinks they're four events because they're four events.
+ Eight hours and forty degrees apart,
+ and then two more,
+ in three oceans." No edge on it at all.
+ "You think they're one."
+\end_layout
+
+\begin_layout Standard
+"I think they're a sequence.
+ I think the first one rang the other three down."
+\end_layout
+
+\begin_layout Standard
+"Rang them down with what?
+ There's no seismicity.
+ I've had that checked twice."
+\end_layout
+
+\begin_layout Standard
+"With a wave.
+ A shallow-water wave,
+ at the square root of g h,
+ which over four thousand metres of Southern Ocean is about seven hundred kilometres an hour.
+ Ice shelves fail in flexure,
+ Daniel.
+ They don't have to be hit hard,
+ they have to be hit at the right period,
+ and all four of those shelves have been sitting at criticality for a decade and the literature says so and has said so since before we knew each other.
+ Wilkins in 2008 went to swell out of Sumatra four years earlier and half a world away." I stopped.
+ "The Southern Ocean is a closed loop.
+ It's the only one.
+ The messenger goes round and it comes back."
+\end_layout
+
+\begin_layout Standard
+He was quiet long enough that I heard somebody laugh behind him,
+ and a tray go down.
+\end_layout
+
+\begin_layout Standard
+"That's a good argument," he said.
+\end_layout
+
+\begin_layout Standard
+"Don't say it like that."
+\end_layout
+
+\begin_layout Standard
+"I'm not saying it like anything.
+ It's a good argument,
+ I don't have one against it,
+ and I'm telling you now instead of at minute eleven that it doesn't change anything at this end."
+\end_layout
+
+\begin_layout Standard
+"Why doesn't it."
+\end_layout
+
+\begin_layout Standard
+"Because it's still shelf ice." He said it the way you say a thing you have already said four times that day.
+ "One shelf or four.
+ Floating ice displaces its own weight before it breaks and it displaces its own weight afterward,
+ in pieces,
+ and the ocean can't tell the difference.
+ Larsen B put three and a quarter thousand square kilometres into the Weddell and the tide gauges didn't notice.
+ No part of that argument depends on how many.
+ That's what I've been listening to since nine o'clock and it's correct."
+\end_layout
+
+\begin_layout Standard
+"I know it's correct."
+\end_layout
+
+\begin_layout Standard
+"Then —
+"
+\end_layout
+
+\begin_layout Standard
+"I'm not calling about the ice." I had had the sentence ready since twenty past six and it came out flatter than I wanted.
+ "I'm calling about the mud."
+\end_layout
+
+\begin_layout Standard
+I heard him move.
+ I have gone over that sound a great many times since and I still do not know what it was,
+ only that he moved.
+\end_layout
+
+\begin_layout Standard
+"Say that again."
+\end_layout
+
+\begin_layout Standard
+"Under every one of those four shelves there's a trough-mouth fan.
+ Glacial flour,
+ ground off the continent and delivered to the shelf break across the whole Pleistocene,
+ sitting there at the steepest angle it will hold.
+ All four are mapped.
+ All four have failed before —
+"
+\end_layout
+
+\begin_layout Standard
+"Nāl,
+ hold on.
+ Before you go on." A breath.
+ "How are the kids?"
+\end_layout
+
+\begin_layout Standard
+I could have said fine.
+ I have thought about that too.
+\end_layout
+
+\begin_layout Standard
+"Ikaika's finishing his second year.
+ Boulder.
+ He calls on Sundays and talks about a girl he won't name."
+\end_layout
+
+\begin_layout Standard
+"And the little one."
+\end_layout
+
+\begin_layout Standard
+"The little one is sixteen and she is not little.
+ She's at Hilo High,
+ she reads at the table and she won't fetch me ice." I heard myself doing it and went on doing it.
+ "She knows all of Tūtū's stories,
+ Daniel.
+ All of them.
+ She recited nineteen forty-six to me last night with her thumb in her book."
+\end_layout
+
+\begin_layout Standard
+"God." He stopped.
+ "Ruth's still with you?"
+\end_layout
+
+\begin_layout Standard
+"Ninety-one."
+\end_layout
+
+\begin_layout Standard
+"Ninety-one." I could hear him smiling,
+ and I could hear that he meant every part of it,
+ which was the trouble.
+ "I'm sorry.
+ I interrupted you.
+ Go on."
+\end_layout
+
+\begin_layout Standard
+And I went on,
+ and it was not as good the second time.
+\end_layout
+
+\begin_layout Standard
+I have been over that as well.
+ I had had one run at him with the whole of it loaded,
+ and he had asked me a kind question in the middle of it,
+ and I had answered it because he meant it and because he had known Tomás,
+ and when I came back to the fans I came back to them cold and out of order and explaining instead of arguing.
+\end_layout
+
+\begin_layout Standard
+I told him about pore pressure.
+ Water in the spaces between the grains,
+ holding them apart,
+ carrying load the grains would otherwise carry.
+ Squeeze a fan like that and the water takes the strain and the grains ride on it,
+ and the mud is strong right up until the moment the water finds somewhere to go.
+ And it does not find anywhere quickly,
+ because water moves through glacial flour about as fast as it moves through a bar of soap,
+ and a failure surface in that material is a layer you could span with one hand,
+ and what is in that layer does not equalise in an afternoon.
+\end_layout
+
+\begin_layout Standard
+"So the ice goes," I said,
+ "and the near field beats on that slope for four or five hours,
+ and the fan takes on pressure it can't shed,
+ and some time later —
+ hours,
+ Daniel,
+ not minutes and not weeks —
+ it lets go."
+\end_layout
+
+\begin_layout Standard
+"Define later."
+\end_layout
+
+\begin_layout Standard
+"I can't."
+\end_layout
+
+\begin_layout Standard
+"Then that's the problem,
+ and I want you to hear that it's the problem and not an excuse."
+\end_layout
+
+\begin_layout Standard
+"I know what it is."
+\end_layout
+
+\begin_layout Standard
+"What's your amplitude?"
+\end_layout
+
+\begin_layout Standard
+"I don't have an amplitude."
+\end_layout
+
+\begin_layout Standard
+"Bulletin 003 has one.
+ Under four centimetres,
+ at fifty-five and forty-eight south,
+ period under six minutes,
+ dispersing exactly the way a narrow source is supposed to disperse.
+ That isn't modelling.
+ That's two instruments in the water.
+ Everything on my desk agrees with everything else on my desk."
+\end_layout
+
+\begin_layout Standard
+"Because everything on your desk is measuring the ice." I was standing by then;
+ I don't remember standing.
+ "Yes.
+ The ice made a narrow source.
+ A hundred kilometres of shelf front is narrow.
+ The mud will not be narrow.
+ When a fan like that goes it doesn't slump,
+ it runs —
+ six hundred,
+ eight hundred kilometres of it,
+ moving for fifteen or twenty minutes —
+ and a source that travels eight hundred kilometres radiates as a source eight hundred kilometres wide,
+ and a wave two hundred kilometres long doesn't disperse.
+ It doesn't even shoal until it's over the shelf.
+ It crosses an ocean and arrives as a tide that comes in and does not stop coming in.
+ Your bulletin reasoned correctly about a narrow source.
+ It just isn't going to be the source."
+\end_layout
+
+\begin_layout Standard
+"And the seismics see none of it."
+\end_layout
+
+\begin_layout Standard
+"The seismics see all of it and can't process any of it.
+ There's no impulsive onset.
+ There's nothing to pick.
+ Your automatic system is built to find the instant a fault broke,
+ and there isn't an instant,
+ there's twenty minutes of seafloor moving sideways.
+ It'll sit in the long-period band looking like weather."
+\end_layout
+
+\begin_layout Standard
+Somebody spoke to him.
+ He covered the phone,
+ said something short,
+ came back.
+\end_layout
+
+\begin_layout Standard
+"What do you want," he said.
+\end_layout
+
+\begin_layout Standard
+"Reinstate the Indian Ocean rim."
+\end_layout
+
+\begin_layout Standard
+"It isn't mine." Flat,
+ and fast,
+ and I understood he had got there before I had.
+ "It's an IOTWMS bulletin.
+ We're a member state through the IOC and the US position went out on the concurrence overnight while I was asleep,
+ and I couldn't reopen it this afternoon if you handed me a signed confession.
+ The mechanism doesn't exist.
+ There's a form for concurring.
+ There is no form for the other thing."
+\end_layout
+
+\begin_layout Standard
+"Then who."
+\end_layout
+
+\begin_layout Standard
+"Vienna,
+ or the centre,
+ or a member state's own authority.
+ Not a deputy director at headquarters in Maryland who doesn't issue warnings."
+\end_layout
+
+\begin_layout Standard
+"You issue nothing?"
+\end_layout
+
+\begin_layout Standard
+"I own the buoys and the feeds and the assessment programme and a partnership with FEMA," he said.
+ "I do not own a siren.
+ Nobody in this building does."
+\end_layout
+
+\begin_layout Standard
+I looked at the four marks on the screen.
+\end_layout
+
+\begin_layout Standard
+"Then here's what I want,
+ and it costs you nothing.
+ Those DARTs went to event mode last night for the Prydz detection.
+ When the bulletin cancelled,
+ they went back to standard.
+ Standard is a fifteen-minute average.
+ If I'm right,
+ the thing that comes has a period of about twenty minutes and half a metre of amplitude in deep water,
+ and a fifteen-minute average will smear it flat,
+ and afterwards everybody will look at the record and say there was no warning.
+ Ask Ford Island to leave the Southern Ocean buoys in event mode.
+ That's it.
+ That's the whole ask."
+\end_layout
+
+\begin_layout Standard
+He didn't answer straight away,
+ and while he wasn't answering the other thing came up in the room between us —
+ nine years of it,
+ his agency's letterhead on the review that ended my array,
+ two sentences I have never repeated to anybody because I have them by heart.
+ I didn't say it.
+ I have wondered since what I thought I was protecting.
+\end_layout
+
+\begin_layout Standard
+What I said was,
+ "I've got nothing to show you,
+ Daniel.
+ Two hydrophones on borrowed ship time and a laptop."
+\end_layout
+
+\begin_layout Standard
+And he said nothing at all,
+ for about three seconds,
+ and the nothing had a shape to it.
+\end_layout
+
+\begin_layout Standard
+Then he said,
+ "I'll ask about the buoys."
+\end_layout
+
+\begin_layout Standard
+"Thank you."
+\end_layout
+
+\begin_layout Standard
+"Nālani." A pause.
+ "If you're right about the fans —
+ when do I know?"
+\end_layout
+
+\begin_layout Standard
+"When a gauge somewhere on the Indian Ocean rim goes up and doesn't come down."
+\end_layout
+
+\begin_layout Standard
+"That's not a warning.
+ That's a post-mortem."
+\end_layout
+
+\begin_layout Standard
+"Yes," I said.
+ "That's what I've been telling you for eleven minutes."
+\end_layout
+
+\begin_layout Standard
+I hung up and sat on the end of the bed with the phone in both hands and the globe still turning slowly on the desk behind me,
+ four marks around a white continent,
+ full morning on the wall now,
+ and I could not think of one other person on earth to call.
+\end_layout
+
+\begin_layout Standard
+---
+\end_layout
+
+\begin_layout Standard
+## 3.
+ For the `Draft` branch —
+ S3b,
+ Daniel
+\end_layout
+
+\begin_layout Standard
+Silver Spring,
+ MD 2031-05-15T13:20:00-04:00`
+\end_layout
+
+\begin_layout Standard
+He had gone back in and sat down and finished his lunch.
+\end_layout
+
+\begin_layout Standard
+Ché asked who that was,
+ and he said an old friend from Scripps,
+ and Number2 said something about Scripps,
+ and then the three of them talked about the fellowship year and about where Ché wanted to be in September,
+ and he had held up his end of it.
+ Twice he had come near saying it.
+ *A woman in Hilo thinks the sediment is going to fail.* Both times he had heard how it would arrive at that table —
+ a deputy director,
+ at lunch,
+ repeating an unsourced mechanism to a fellow six weeks into the job —
+ and both times he had let the moment go by,
+ because that is how rumours start,
+ and because a thing said in a cafeteria cannot be unsaid in a corridor.
+\end_layout
+
+\begin_layout Standard
+Which was true.
+ He noticed it was the fourth true thing he had thought that day.
+\end_layout
+
+\begin_layout Standard
+At his desk he pulled the legal pad over and wrote *pore pressure?* and underlined it,
+ and then,
+ underneath,
+ *trough-mouth fan*,
+ because he was not certain he had the term and he wanted it in his own hand before he lost the shape of it.
+ Then,
+ after a moment,
+ *she asked for the buoys*.
+\end_layout
+
+\begin_layout Standard
+He had let her get to the end without telling her that he had been the one who argued for the array.
+ He had come close twice there too.
+ Both times the sentence had assembled itself —
+ *I fought for that and I lost* —
+ and both times he had heard what it would sound like coming down a telephone line to a woman he had not spoken to in twenty years,
+ and had put it away.
+ It was not a thing you said in order to be useful.
+ It was a thing you said in order to be forgiven,
+ and she had not accused him of anything,
+ and a man who apologises for a charge nobody has laid is telling you what he thinks he did.
+\end_layout
+
+\begin_layout Standard
+He brought Edgar up and typed.
+\end_layout
+
+\begin_layout Standard
+**`Programmatic ownership:
+ submarine sediment failure,
+ Antarctic margin.
+ Tsunamigenic potential.`**
+\end_layout
+
+\begin_layout Standard
+> [Analyst]
+\end_layout
+
+\begin_layout Standard
+>
+\end_layout
+
+\begin_layout Standard
+> No NOAA Tsunami Program product addresses submarine mass failure as a source class.
+\end_layout
+
+\begin_layout Standard
+>
+\end_layout
+
+\begin_layout Standard
+> Nearest programmatic owner:
+ USGS Coastal and Marine Hazards and Resources Program.
+ Interagency coordination available through NTHMP.
+\end_layout
+
+\begin_layout Standard
+>
+\end_layout
+
+\begin_layout Standard
+> Analogues in the literature:
+ Storegga,
+ Norwegian margin,
+ ~8150 BP.
+ Grand Banks,
+ 1929,
+ cable-dated,
+ tsunamigenic,
+ 28 fatalities.
+ Papua New Guinea,
+ 1998,
+ 2,200 fatalities,
+ attribution contested.
+\end_layout
+
+\begin_layout Standard
+>
+\end_layout
+
+\begin_layout Standard
+> No Antarctic-margin analogue is recorded in the instrumental period.
+\end_layout
+
+\begin_layout Standard
+He read the last line twice.
+\end_layout
+
+\begin_layout Standard
+Nothing in the instrumental period.
+ Which meant nothing in a hundred and thirty years,
+ and she was telling him there would be four of them by tomorrow.
+ The honest description of her position was that it had no precedent,
+ no amplitude,
+ no arrival time,
+ and no instrument anywhere reporting anything except agreement with the opposite view.
+\end_layout
+
+\begin_layout Standard
+And that she was the only person on earth who had telephoned him about it.
+\end_layout
+
+\begin_layout Standard
+He typed:
+\end_layout
+
+\begin_layout Standard
+**`DART network,
+ Southern Ocean.
+ Current reporting mode.`**
+\end_layout
+
+\begin_layout Standard
+> [Analyst]
+\end_layout
+
+\begin_layout Standard
+>
+\end_layout
+
+\begin_layout Standard
+> Twelve DART stations south of 40°S.
+ Eleven in standard mode,
+ 15-minute transmission interval.
+ One in event mode,
+ 55°S,
+ event-triggered 0455Z,
+ IOTWMS Bulletin 001.
+\end_layout
+
+\begin_layout Standard
+>
+\end_layout
+
+\begin_layout Standard
+> Mode is set by the responsible warning centre.
+ Requests originating outside the centre route through the Program Office as a formal tasking.
+\end_layout
+
+\begin_layout Standard
+A formal tasking.
+ He knew what one of those was —
+ a memorandum,
+ a justification,
+ a cost,
+ a name at the bottom,
+ and a question at some point next week from somebody who would want to know what the scientific basis had been.
+ The honest answer to that question was a telephone call from Hilo.
+\end_layout
+
+\begin_layout Standard
+He looked at the pad for a while.
+ Then he opened the paper calendar,
+ turned it to Monday,
+ wrote *fans —
+ call USGS* in the square,
+ closed it,
+ and went to his two o'clock.
 \end_layout
 
 \end_inset
