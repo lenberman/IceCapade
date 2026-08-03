@@ -212,10 +212,10 @@ Ouch!
 \end_inset
 
  I cry.
- Tūtū sitting in her straight-back chair,
+ Tūtū is sitting in her straight-back chair,
  watching the clouds shimmer as the sun descended,
- elsewhen in her eyes,
- calls 
+ elsewhen in her eyes.
+ She calls 
 \begin_inset Quotes qld
 \end_inset
 
@@ -612,17 +612,32 @@ No consistent events currently registered.
 \end_layout
 
 \begin_layout Standard
-It was either the death throes of a failing hydrophones,
- or the event signal was still in transit.
+
+\family typewriter
+\series bold
+Trace ray to land.
+\end_layout
+
+\begin_layout Standard
+A window opened with an image of the southern hemisphere with a great circle centered at Crozet Island,
+ a French rock in the South Pacific.
+ The circle clearly intersected Antarctica although exactly where was much less clear.
+ A second reading would clear that up.
+\end_layout
+
+\begin_layout Standard
+This was either the death throes of failing hydrophones,
+ or the event signal was still looking for a second listening station.
  If the latter,
  Oscar would ping me when the signal arrived somewhere.
 \end_layout
 
 \begin_layout Standard
-I sat there,
+I sat,
  drumming my fingers on the table.
- Waiting,
- losing patience I started towards the door.
+ Waiting,\SpecialChar ldots
+ losing patience,
+ I started towards the door.
  Oscar buzzed.
  I looked down at the screen and there it was,
  the next message,
@@ -639,8 +654,8 @@ Consistent event registered.
 \end_layout
 
 \begin_layout Standard
-I hit enter and the window refreshed.
- It was now labeled:
+I hit enter and a new window opened.
+ It was labeled:
  HA01,
  Cape Leeuwin,
  T04:12:07Z,
@@ -1124,24 +1139,15 @@ Top priority items.
 \begin_layout Analyst
 
 \series bold
-1.
- IMS HA04 Crozet ::
+IMS HA04 Crozet ::
  03:51Z
-\end_layout
-
-\begin_layout Analyst
-
-\series bold
-2.
- IMS HA03 Juan Fernández::
- 13:00Z
 \end_layout
 
 \begin_layout Standard
 
 \family typewriter
 \series bold
-Expand 1.
+Expand.
 \end_layout
 
 \begin_layout Analyst
@@ -1166,47 +1172,6 @@ Origin Prydz Bay at 2031-05-15T03:20Z
 
 \begin_layout Analyst
 Max instrument amplitude.
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\series bold
-Expand 2.
-\end_layout
-
-\begin_layout Analyst
-Juan Fernández (HA03) posted at 2031-05-15T13:00Z,
- back-azimuth 201.0 
-\end_layout
-
-\begin_layout Analyst
-Broadband arrival,
- 11Hz to 4Hz,
- 340 sec;
-\end_layout
-
-\begin_layout Analyst
-origin unknown
-\end_layout
-
-\begin_layout Analyst
-query to Crozet:
- Is your 0351 event ongoing?
- No response.
-\end_layout
-
-\begin_layout Standard
-Odd,
- he thought,
- two events,
- seven hours apart;
- he wondered where #2 would resolve to.
- He forwarded the notes to Number2,
- his chief scientific officer,
- with subject:
- Could they be one?
- Then he typed,
 \end_layout
 
 \begin_layout Standard
@@ -1252,29 +1217,98 @@ Daniel turned to his email.
  Currently,
  it prioritized his emails,
  but he answered them himself.
- He resented the encroachment of AI on humanity.
- Some staffers let Edgar respond to emails.
+ Some staffers let Edgar respond to emails,
+ it was the latest 'form letter'.
+ but he felt that if an email deserved a reply from him,
+ he should write it.
+ He resented the encroachment of AI on humanity and.
 \end_layout
 
 \begin_layout Standard
-Just as Daniel was reading his first email,
- a reminder from the director's office Departmental Budgets were due June 30,
+Just after 10 o'clock,
  Edgar beeped.
+ Daniel was surprised,
+ priority events were rare;
+ two in one day was extraordinary.
+ He turned to the screen and typed,
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Expand top priority items.
+\end_layout
+
+\begin_layout Analyst
+
+\series bold
+IMS HA03 Juan Fernández::
+ 14:00Z
+\end_layout
+
+\begin_layout Analyst
+Juan Fernández (HA03) posted at 2031-05-15T14:00Z,
+ back-azimuth 201.0 
+\end_layout
+
+\begin_layout Analyst
+Broadband arrival,
+ 11Hz to 4Hz,
+ 340 sec;
+\end_layout
+
+\begin_layout Analyst
+origin unknown
+\end_layout
+
+\begin_layout Analyst
+query to HA04:
+ Is your 0351 event ongoing?
+ No response.
+\end_layout
+
+\begin_layout Standard
+Odd,
+ he thought,
+ a second event within ten hours.
+ He wondered where the new one would resolve to.
+ He forwarded the two alerts to Number2,
+ his chief scientific officer,
+ with subject:
  
 \begin_inset Quotes qld
 \end_inset
 
-Ah,
+Could they be one?
 \begin_inset Quotes qrd
 \end_inset
 
- he thought,
+ and returned to his emails.
+ 
+\end_layout
+
+\begin_layout Standard
+He was responding to an email from the director's office reminding him that his Departmental Budget estimate was due June 1,
+ when Edgar beeped.
  
 \begin_inset Quotes qld
 \end_inset
 
-Now we'll find out where that event was.
- He knew he should deal with the email.
+Praise the Lord,
+\begin_inset Quotes qrd
+\end_inset
+
+ he muttered,
+ closing the email program and thinking,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Now we'll find out where the HA03 event was.
+\begin_inset Quotes qrd
+\end_inset
+
  He returned to Edgar,
 \end_layout
 
@@ -1282,26 +1316,11 @@ Now we'll find out where that event was.
 
 \family typewriter
 \series bold
-Top priority items.
+Expand top priority items.
 \end_layout
 
 \begin_layout Analyst
-
-\series bold
-1.
- IMS HA03 JUAN FERNÁNDEZ ::
- 13:00Z
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\series bold
-Expand.
-\end_layout
-
-\begin_layout Analyst
-Wake (HA11) posted at 2031-05-15T13:37Z,
+Wake (HA11) posted at 2031-05-15T14:38Z,
  back-azimuth 183.6
 \end_layout
 
@@ -1312,23 +1331,23 @@ Broadband arrival,
 \end_layout
 
 \begin_layout Analyst
-Juan Fernández (HA03) posted at 2031-05-15T13:00Z,
+Juan Fernández (HA03) posted at 2031-05-15T14:00Z,
  back-azimuth 201.0 
 \end_layout
 
 \begin_layout Analyst
-Origin Ross at 2031-05-15T11:35 
+Origin Ross at 2031-05-15T12:36 
 \end_layout
 
 \begin_layout Standard
 He looked at his watch and thought:
- nine forty,
- not bad Edgar took three minutes.
- 
+ ten forty,
+ not bad Edgar took two minutes.
+ A lot better than watching the feeds yourself.
 \end_layout
 
 \begin_layout Standard
-Midway through the second email,
+He returned to his emails and had made significant progress when,
  he heard a commotion at the door and swiveled to find Number2 in his doorway and a wall of department members blocking the horizon.
  Number2 began,
  
@@ -1350,7 +1369,6 @@ Daniel responded,
 
 Two ice shelves crack so close in time.
  Seems odd.
- One was enormous.
  Could be related,
  don't you think?
 \begin_inset Quotes qrd
@@ -1370,7 +1388,10 @@ Of course,
  but there's no known mechanism.
  In any event they're ice shelves.
  No change to sea level,
- no waves.
+ no waves,
+ no problem.
+ We are the tsunami center,
+ after all.
 \begin_inset Quotes qrd
 \end_inset
 
@@ -1378,17 +1399,9 @@ Of course,
 \end_layout
 
 \begin_layout Standard
-With Number2 sitting,
- the office became the sight for an unscheduled discussion.
- The topic was:
- 
-\begin_inset Quotes qld
-\end_inset
-
-Are the events related?
-\begin_inset Quotes qrd
-\end_inset
-
+With Number2 present,
+ the office became the site for an unscheduled discussion:
+ Are the events related?
  Various mechanisms were proposed and disposed of.
  A few staffers leaned up against the wall or bookcases.
  The most common theories involved seismic activity or vulcanism:
@@ -1397,13 +1410,29 @@ Are the events related?
 \end_layout
 
 \begin_layout Standard
+Daniel was having a great time.
+ He loved science,
+ and regretted accepting his last promotion.
+ Just two years ago,
+ he had had Number2's job and been happy.
+ Then the deputy director retired and Daniel took the promotion.
+ He had known it was a mistake at the time,
+ but Ellen had pushed.
+ He was smarter now.
+ He could feel the excited interplay of minds,
+ the clash of ideas and opinions.
+ He wanted it back,
+ he was tired of spending his days answering bureaucratic emails.
+\end_layout
+
+\begin_layout Standard
 And then,
- just after ten,
+ just after eleven-thirty,
  beepers started going off.
- Everyone understood,
- it was another priority event.
+ Everyone understood:
+ Another priority event.
  Something that might not happen once in a year,
- happening three times in a day.
+ had happened three times in a single day.
  Everyone crowded around Daniel's desk as he turned back to Edgar's window.
 \end_layout
 
@@ -1411,26 +1440,18 @@ And then,
 
 \family typewriter
 \series bold
-Top priority items.
+Expand top priority items.
 \end_layout
 
 \begin_layout Analyst
 
 \series bold
-1.
- IMS HA09 Tristan da Cunha::
- 14:01Z T-phase
-\end_layout
-
-\begin_layout Standard
-
-\family typewriter
-\series bold
-Expand.
+IMS HA09 Tristan da Cunha::
+ 15:29Z T-phase
 \end_layout
 
 \begin_layout Analyst
-Tristan da Cunha (HA09) posted at 2031-05-15T14:01Z
+Tristan da Cunha (HA09) posted at 2031-05-15T15:29Z
 \end_layout
 
 \begin_layout Analyst
@@ -1497,7 +1518,7 @@ Dan,
 \end_layout
 
 \begin_layout Standard
-The three of them began discussing the impact of ice shelf loss on adjacent ice sheet stability and movement.
+The three of them continued discussing the impact of ice shelf loss on adjacent ice sheet stability and movement.
  As a seismologist,
  ice had not been a focus of Ché's studies,
  so Number2 gave a quick overview for his benefit.
@@ -1519,20 +1540,20 @@ Probably the location for the HA09 event,
 
 \family typewriter
 \series bold
-Expand priority items.
+Expand top priority items.
 \end_layout
 
 \begin_layout Analyst
-HA10 Ascension Island posted at 2031-05-15T14:36Z,
+HA10 Ascension Island posted at 2031-05-15T16:04Z,
  back-azimuth 189.8
 \end_layout
 
 \begin_layout Analyst
-Tristan da Cunha (HA09) posted at 2031-05-15T13:37Z
+Tristan da Cunha (HA09) posted at 2031-05-15T15:29Z
 \end_layout
 
 \begin_layout Analyst
-Origin Weddell at 2031-05-15T13:09Z
+Origin Weddell at 2031-05-15T14:36Z
 \end_layout
 
 \begin_layout Standard
@@ -1542,11 +1563,180 @@ They looked at one another.
 \begin_inset Quotes qld
 \end_inset
 
-Let's have lunch,
+Three in one day,
+ that can't happen.
 \begin_inset Quotes qrd
 \end_inset
 
- and they did.
+
+\end_layout
+
+\begin_layout Standard
+Number2 replied,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+You're right,
+ boss.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+They sat around,
+ discussing the mystery and not getting anywhere until Daniel said,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+It's five to twelve,
+ let's have lunch.
+\begin_inset Quotes qrd
+\end_inset
+
+ Ché excused himself and left,
+ explaining that he needed a few minutes to get his lunch from his office.
+\end_layout
+
+\begin_layout Standard
+Before he returned,
+ Edgar had beeped again,
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Display priority items.
+\end_layout
+
+\begin_layout Analyst
+
+\series bold
+IMS HA03 Juan Fernández::
+ 15:55Z
+\end_layout
+
+\begin_layout Analyst
+HA03,
+ Juan Fernández,
+ back-azimuth 193.7,
+ 2031-05-15T15:55Z
+\end_layout
+
+\begin_layout Analyst
+Origin unknown
+\end_layout
+
+\begin_layout Standard
+When Ché returned,
+ he found Daniel and Number2 sitting quietly,
+ he said,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Ready for lunch?
+\begin_inset Quotes qrd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Number2 spoke,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+We got a fourth event.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Where?
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Don't know yet,
+ no second reading.
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Why don't we just trace the ray until land?
+\begin_inset Quotes qrd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes qld
+\end_inset
+
+Good idea,
+\begin_inset Quotes qrd
+\end_inset
+
+ Daniel said as he turned to Edgar and typed,
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+Backtrace ray to land
+\end_layout
+
+\begin_layout Analyst
+HA03,
+ Juan Fernández,
+ back-azimuth 193.7,
+ 2031-05-15T15:52Z
+\end_layout
+
+\begin_layout Analyst
+Backtrace:
+ Amundsen shelf,
+ Antarctica.
+ 
+\end_layout
+
+\begin_layout Standard
+Daniel turned,
+ saying,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+Let's do lunch.
+\begin_inset Quotes qrd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1608,8 +1798,8 @@ After he hangs up he writes *pore pressure?* on a legal pad and does nothing wit
 \end_layout
 
 \begin_layout Standard
-Oscar buzzed me a few times,
- but I was already sleeping poorly and I didn't follow up.
+Oscar buzzed me that night,
+ but I was sleeping so poorly I didn't follow up.
  I staggered out of bed a little after five.
  
 \end_layout
@@ -1630,14 +1820,11 @@ I managed to put on coffee and got to Oscar a little before five-thirty.
 
 \family typewriter
 \series bold
-Explain Alert.
+Explain Alert
 \end_layout
 
 \begin_layout Standard
-A window labeled HA09,
- Tristan da Cunha,
- T-phase,
- 2031-05-15T10:33Z opened.
+A window labeled opened.
  It displayed an ice collapse waveform,
  very much like the one I had seen yesterday with one difference,
  this one never maxed out.
@@ -1646,38 +1833,30 @@ A window labeled HA09,
 \end_layout
 
 \begin_layout Itemize
-Current HA09 waveform normal 
+HA03,
+ Juan Fernández,
+ back-azimuth 201.0,
+ 2031-05-15T14:00Z
 \end_layout
 
 \begin_layout Itemize
-Located via Ascension (HA10) back-azimuth 190°,
- origin:
- Weddell 2031-05-15T09:40Z
-\begin_inset Quotes qrd
-\end_inset
-
-
+HA11 Wake Island,
+ back-azimuth 183.6°,
+ 2031-05-15T14:38Z
 \end_layout
 
 \begin_layout Itemize
-Amplitude:
- 
+Origin:
+ Ross 2031-05-15T12:36ZHA03
 \end_layout
 
 \begin_layout Standard
-The event had been large,
- but not like Prydz.
- Strange,
- two so close in time and nothing to link them.
-\end_layout
-
-\begin_layout Standard
-I sipped my coffee and wondered,
- as I do every morning,
+I sipped coffee wondering,
+ as I do most mornings,
  whether I'd ever be able to afford the pure Kona that the tourists drink.
+ I was wiped.
  My eyes closed,
- my head sank forward and then,
- almost magically,
+ my head sank forward and then my neck sprang back and raised my head.
  I was alert and back at work.
 \end_layout
 
@@ -1685,16 +1864,7 @@ I sipped my coffee and wondered,
 I started my email with Oscar.
  My procedure was simple but carefully designed.
  It prioritizes my Inbox.
- Weight reduction,
- penis and breast enhancement and 
-\begin_inset Quotes qld
-\end_inset
-
-How to make money without working
-\begin_inset Quotes qrd
-\end_inset
-
- go at the bottom of the pile.
+ Weight reduction goes at the bottom of the pile.
  Oscar presents unread emails one at a time.
  I examine each and have keystrokes for delete,
  unsubscribe,
@@ -1702,41 +1872,194 @@ How to make money without working
  My goal is to clear my unread emails with keystrokes.
  For the others,
  I instruct Oscar concerning the desired response,
- which it produces and I proof read and modify everything that goes out.
+ which it produces.
+ I proof read and/or modify everything that goes out.
  Everybody needs there work checked —
- Oscar included
+ Oscar included.
 \end_layout
 
 \begin_layout Standard
 That morning my top two emails were from Ikaika and a friend and colleague at Mānoa.
  Those were both definitely handle later and as I proceeded to a meeting announcement,
  Oscar beeped me.
- It was 05:45:00.
+ It was 05:30:00 and I typed,
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+explain
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+IMS HA09 Tristan da Cunha::
+ 15:29Z T-phase
+\end_layout
+
+\begin_layout Itemize
+Tristan da Cunha (HA09) posted at 2031-05-15T15:29Z
+\end_layout
+
+\begin_layout Itemize
+Origin unknown
+\end_layout
+
+\begin_layout Standard
+This was a T-phase so no ray to trace.
+ I'd have to wait to see were it's from.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status collapsed
+
+\begin_layout Plain Layout
+—
+ sunrise 05:44:54,
+ 
+\end_layout
+
+\end_inset
+
+It was getting close to sunrise and I hoped the sun would burn off the fog engulfing my mind.
+ I opened the door and,
+ not surprisingly,
+ found Tutu ensconced in her chair,
+ waiting to greet the sun.
+ The room itself was suffused by the glow of not-quite sunrise,
+ in a minute it would be bathed in sunlight.
+ The plants stood at ease,
+ leaves relaxed preparing for their day with the sun,
+ breathing life into the world.
+\end_layout
+
+\begin_layout Standard
+beep:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+what's up?
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Juan Fernández,
+ back-azimuth 1932.3,
+ 2031-05-15T15:52Z
+\end_layout
+
+\begin_layout Itemize
+Backtrace:
+ Amundsen shelf,
+ Antarctica.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+beep:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Juan Fernández,
+ back-azimuth 193.9,
+ 2031-05-15T16:01Z
+\end_layout
+
+\begin_layout Itemize
+Backtrace:
+ Amundsen shelf,
+ Antarctica.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+beep:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+HA10 Ascension Island,
+ back-azimuth 189.8,
+ 2031-05-15T16:04Z
+\end_layout
+
+\begin_layout Standard
+Origin Weddell at 2031-05-15T14:36Z
+\end_layout
+
+\begin_layout Standard
+second ring 06:10:18
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+beep:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Juan Fernández,
+ back-azimuth 193.9,
+ 2031-05-15T16:13Z
+\end_layout
+
+\begin_layout Itemize
+Backtrace:
+ Amundsen shelf,
+ Antarctica.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\series bold
+beep:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Juan Fernández,
+ back-azimuth 193.9,
+ 2031-05-15T16:20Z
+\end_layout
+
+\begin_layout Itemize
+Backtrace:
+ Amundsen shelf,
+ Antarctica.
+ 
+\end_layout
+
+\begin_layout Standard
+Four strikes on Amundsen.
+ Not good.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Branch Draft
 inverted 0
 status collapsed
-
-\begin_layout Standard
-I ran the Crozet solution again by hand.
- It took me forty minutes and gave me exactly what Oscar had given me in four seconds,
- and I did it anyway,
- because I wanted to be the person who had done it and not the person who had been told.
- Six years of that.
- You stop trusting the thing that hands you answers,
- because nothing has been asking for your answers.
-\end_layout
-
-\begin_layout Standard
-The solution came out where it had come out.
- The Weddell.
- Two shelves,
- six hours and forty-five minutes apart,
- on opposite sides of a continent,
- and no seismicity under either of them.
-\end_layout
 
 \begin_layout Standard
 Tūtū was already up.
