@@ -3,7 +3,7 @@
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin /home/berman/IceCapade/lyx/
+\origin unavailable
 \textclass extbook
 \begin_preamble
 % Options for packages loaded elsewhere
@@ -318,9 +318,9 @@ I pulled out dinner,
  As I straightened,
  I saw them again.
  Lehua captivated by Tūtū's tales,
- as I had been thirty years before.
- They were strong tales.
- I had come back.
+ as I had been years before.
+ They were strong tales;
+ they had brought me back.
  I called them,
  
 \begin_inset Quotes qld
@@ -377,14 +377,8 @@ Tūtū,
 
 Tales of the families.
  Stories I've told you.
-\begin_inset Quotes qrd
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-"So Lehua,
+ Lehua,
+ tell your mother,
  what have you learned?"
 \end_layout
 
@@ -394,10 +388,17 @@ Lehua kept her thumb in the book and briefly lifted her head,
 \end_layout
 
 \begin_layout Standard
-I continued,
- "So,
- go on.
- What happens to Waiākea?"
+"So,
+ go on,
+\begin_inset Quotes qrd
+\end_inset
+
+ I said,
+ 
+\begin_inset Quotes qld
+\end_inset
+
+What happens to Waiākea?"
 \end_layout
 
 \begin_layout Standard
@@ -409,18 +410,14 @@ Lehua replaced her thumb with her bookmark and continued,
 The bay empties and then,
  when the waters return,
  they are angry and fierce.
- They sweep away everything below a certain point:
+ They sweep everything away:
  people,
  buildings,
  roads.
 \begin_inset Quotes qrd
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-She looked at Tutu,
+ She looked at Tutu,
  "And in nineteen forty-six,
  when Tūtū was six,
  the waters left and no one knew what it meant.
@@ -1908,7 +1905,8 @@ Origin unknown
 \end_layout
 
 \begin_layout Standard
-This was a T-phase so no ray to trace.
+T-phase.
+ No ray to trace.
  I'd have to wait to see were it's from.
 \end_layout
 
@@ -1924,7 +1922,7 @@ status collapsed
 
 \end_inset
 
-It was getting close to sunrise and I hoped the sun would burn off the fog engulfing my mind.
+It was getting close to sunrise and I hoped the sun would lift the fog engulfing my mind.
  I opened the door and,
  not surprisingly,
  found Tutu ensconced in her chair,
@@ -1932,11 +1930,14 @@ It was getting close to sunrise and I hoped the sun would burn off the fog engul
  The room itself was suffused by the glow of not-quite sunrise,
  in a minute it would be bathed in sunlight.
  The plants stood at ease,
- leaves relaxed preparing for their day with the sun,
+ leaves relaxed preparing for their day in the sun,
  breathing life into the world.
 \end_layout
 
 \begin_layout Standard
+
+\family typewriter
+\series bold
 beep:
 \end_layout
 
@@ -1951,7 +1952,7 @@ what's up?
 
 \series bold
 Juan Fernández,
- back-azimuth 1932.3,
+ back-azimuth 193.2,
  2031-05-15T15:52Z
 \end_layout
 
